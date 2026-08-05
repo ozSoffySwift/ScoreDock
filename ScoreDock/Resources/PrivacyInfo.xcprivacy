@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  §16. The app collects nothing and tracks nobody. Everything a match produces stays in the
+	  local SwiftData store; the only data that ever leaves the device is a file the operator
+	  explicitly shares, through the system share sheet, to a destination they chose.
+
+	  There is no analytics SDK, no telemetry, no crash reporter, no account and no network client
+	  of any kind — so `NSPrivacyCollectedDataTypes` is empty and `NSPrivacyTracking` is false as a
+	  statement of fact rather than of intent.
+	-->
+	<key>NSPrivacyTracking</key>
+	<false/>
+
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+
+	<!--
+	  Required-reason APIs. Only one applies: `AppSettings` keeps device preferences — board font,
+	  theme, sound and haptic toggles — in `UserDefaults`. They are this app's own settings, read
+	  and written only by this app, which is exactly reason CA92.1.
+
+	  Deliberately absent, because the app does not use them: file timestamps, disk space, system
+	  boot time and active keyboards. Photos reach the app through `PhotosPicker`, which runs out of
+	  process and returns only the chosen image — so no photo-library permission is requested and no
+	  library access is declared.
+	-->
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>CA92.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

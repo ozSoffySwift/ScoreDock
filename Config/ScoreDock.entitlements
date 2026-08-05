@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  §7.5 — the iCloud/CloudKit capability is configured at M0 so the schema can be validated
+	  against the CloudKit development environment. Sync itself is OFF in v1: the store opens
+	  with ModelConfiguration(cloudKitDatabase: .none). See AppModelContainer.
+
+	  Deliberately NOT declared here: aps-environment. Xcode adds it when the Push Notifications
+	  capability is switched on, and hand-writing it breaks device signing against a provisioning
+	  profile that lacks the entitlement. It is only needed once sync actually ships.
+	-->
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>iCloud.com.ozsoffy.scoredock</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+</dict>
+</plist>

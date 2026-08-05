@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Display name is driven by CFBundleDisplayName + InfoPlist.xcstrings, never hard-coded
+	     in source. Renaming the product (risk #1, §17) is an edit to those two places only. -->
+	<key>CFBundleDisplayName</key>
+	<string>ScoreDock</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<!-- §2.1 step 3: fonts provided by application. Registered by PostScript name in BoardFont. -->
+	<key>UIAppFonts</key>
+	<array>
+		<string>DSEG7Classic-Regular.ttf</string>
+		<string>DSEG7Classic-Bold.ttf</string>
+		<string>DSEG7Classic-Italic.ttf</string>
+	</array>
+
+	<!-- §5.2. `UIApplicationSupportsMultipleScenes` is what makes the system offer an
+	     external-display scene at all, and `UISceneConfigurations` is what makes it actually arrive.
+
+	     This was originally done in AppDelegate.application(_:configurationForConnecting:options:)
+	     to avoid naming the delegate class as a string, which breaks silently on a module rename.
+	     That reasoning was sound and the conclusion was wrong: in a SwiftUI-lifecycle app that
+	     method is **never called** — SwiftUI installs its own delegate for scene management — so the
+	     app never claimed the display, and an AirPlay session went on mirroring the phone.
+
+	     The string risk is real and is handled where it belongs: `ExternalDisplayTests` resolves this
+	     exact value with NSClassFromString and fails if it stops naming the delegate. A silent break
+	     a test catches beats a feature that never runs.
+
+	     Only the external-display role is declared. The main window is left to SwiftUI, which
+	     configures the application role itself. -->
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleExternalDisplayNonInteractive</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>External Board</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).ExternalDisplaySceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+
+	<!-- §5.1: the app supports every orientation. The scene decides what to render, and the
+	     supported set is never narrowed — rotate-to-board depends on this staying open. -->
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
+
+	<!-- The app uses no encryption beyond what iOS itself provides for the local store, so it is
+	     exempt. Declaring it here means App Store Connect stops asking on every single upload,
+	     which is the only way that question ever gets a considered answer rather than a reflexive
+	     one. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+
+	<!-- §13.5: a shared `.sdgame` arrives through the share sheet or Files and is opened in place
+	     from wherever it landed. Without this the system copies it into the app's Inbox first,
+	     which leaves an orphaned duplicate behind after every import. -->
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+
+	<!-- Not a document browser: matches live in the app's own store and Files is only ever the
+	     source of an import. -->
+	<key>UISupportsDocumentBrowser</key>
+	<false/>
+
+	<!-- §13.5: `.sdgame` is declared as an *exported* type with a matching document type, so a
+	     shared match opens from Files, Mail and AirDrop. Import creates a read-only archived match
+	     and never overwrites the recipient's players or teams — see SdGameDocument. -->
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>com.ozsoffy.scoredock.game</string>
+			<key>UTTypeDescription</key>
+			<string>ScoreDock Game</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.json</string>
+			</array>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>sdgame</string>
+				</array>
+				<key>public.mime-type</key>
+				<array>
+					<string>application/json</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>ScoreDock Game</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.ozsoffy.scoredock.game</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

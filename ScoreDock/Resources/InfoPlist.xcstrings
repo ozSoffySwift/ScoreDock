@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "The app's display name. The product name is now committed to across the target, module and bundle identifier as well, so this is no longer the only place it lives. §17 risk 1 stays open: validate the App Store name and the US/EU/IL trademark registries before submission at M8.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ScoreDock"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ScoreDock"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "ScoreDock"
+          }
+        }
+      }
+    },
+    "ScoreDock Game" : {
+
+    }
+  },
+  "version" : "1.0"
+}

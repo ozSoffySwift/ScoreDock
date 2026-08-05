@@ -1,0 +1,795 @@
+{
+  "formatVersion": 1,
+  "note": "Built-in preset catalog (§7.4). Bundled data decoded into value types at launch — never seeded as SwiftData rows. Per §8.5 every secondary rule value carries a source entry. status: 'referenceSite' = the confirmed parameter from the spec's §8.1-8.4 tables; 'sourced' = taken from the named governing body's published rules; 'needsReview' = plausible default that MUST be checked against the governing body before submission. All values are user-editable regardless, and Setup shows the 'rules vary by league' hint on first use.",
+  "presets": [
+    {
+      "slug": "custom-scoreboard",
+      "name": { "en": "Custom scoreboard", "he": "לוח תוצאות מותאם" },
+      "emoji": "🎛️",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 0,
+      "defaultThemeID": "dark",
+      "rules": {
+        "sideCount": 2, "periodCount": 4, "periodLength": 600, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 60, "breakDuration": 900,
+        "periodLabelStyle": "period", "scoreIncrements": [1, 2, 3],
+        "foulTrackingEnabled": true, "foulLimit": 5, "foulsResetPerPeriod": true, "bonusThreshold": 5,
+        "timeoutCount": 2, "timeoutsResetAtHalf": true,
+        "shotClockEnabled": false, "shotClockFull": 24, "shotClockShort": 14,
+        "possessionArrowEnabled": true
+      },
+      "sources": {
+        "all": { "cite": "Blank template — every option exposed, no governing body applies.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "soccer",
+      "name": { "en": "Soccer", "he": "כדורגל" },
+      "emoji": "⚽️",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 1,
+      "defaultThemeID": "grass",
+      "rules": {
+        "sideCount": 2, "periodCount": 2, "periodLength": 2700, "countsUp": true,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 900,
+        "periodLabelStyle": "half", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "IFAB Laws of the Game, Law 7.1 — two equal halves of 45 min.", "status": "referenceSite" },
+        "periodLength": { "cite": "IFAB Laws of the Game, Law 7.1.", "status": "referenceSite" },
+        "countsUp": { "cite": "Association football clocks count up, including added time.", "status": "sourced" },
+        "breakDuration": { "cite": "IFAB Laws of the Game, Law 7.2 — half-time interval not exceeding 15 min.", "status": "sourced" },
+        "timeoutCount": { "cite": "No timeouts in the Laws of the Game.", "status": "sourced" }
+      }
+    },
+    {
+      "slug": "basketball-nba",
+      "name": { "en": "Basketball — NBA", "he": "כדורסל — NBA" },
+      "emoji": "🏀",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 2,
+      "defaultThemeID": "dark",
+      "rules": {
+        "sideCount": 2, "periodCount": 4, "periodLength": 720, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 60, "breakDuration": 900,
+        "periodLabelStyle": "quarter", "scoreIncrements": [1, 2, 3],
+        "foulTrackingEnabled": true, "foulLimit": 6, "foulsResetPerPeriod": false, "bonusThreshold": 5,
+        "timeoutCount": 7, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": true, "shotClockFull": 24, "shotClockShort": 14,
+        "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "NBA Official Rules, Rule 5 Section I — four 12-minute periods.", "status": "referenceSite" },
+        "periodLength": { "cite": "NBA Official Rules, Rule 5 Section I.", "status": "referenceSite" },
+        "foulLimit": { "cite": "NBA Official Rules, Rule 12A — a player is disqualified on the 6th personal foul.", "status": "sourced" },
+        "foulsResetPerPeriod": { "cite": "Personal fouls accumulate across the whole game; team fouls reset each period. This preset tracks personal fouls.", "status": "sourced" },
+        "bonusThreshold": { "cite": "NBA penalty situation begins on the 5th team foul in a period.", "status": "needsReview" },
+        "timeoutCount": { "cite": "NBA timeout allocation has been revised several times (currently 7 per team per game, with per-period and final-period restrictions). CHECK the current rulebook and decide whether per-period limits belong in v1.", "status": "needsReview" },
+        "shotClockFull": { "cite": "NBA Official Rules, Rule 7 — 24-second clock.", "status": "referenceSite" },
+        "shotClockShort": { "cite": "NBA Official Rules, Rule 7 — reset to 14 on an offensive rebound.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "basketball",
+      "name": { "en": "Basketball — FIBA", "he": "כדורסל — FIBA" },
+      "emoji": "🏀",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 3,
+      "defaultThemeID": "dark",
+      "rules": {
+        "sideCount": 2, "periodCount": 4, "periodLength": 600, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 60, "breakDuration": 900,
+        "periodLabelStyle": "quarter", "scoreIncrements": [1, 2, 3],
+        "foulTrackingEnabled": true, "foulLimit": 5, "foulsResetPerPeriod": false, "bonusThreshold": 5,
+        "timeoutCount": 5, "timeoutsResetAtHalf": true,
+        "shotClockEnabled": true, "shotClockFull": 24, "shotClockShort": 14,
+        "possessionArrowEnabled": true, "possessionLabel": "POSS"
+      },
+      "sources": {
+        "periodCount": { "cite": "FIBA Official Basketball Rules, Art. 8.1 — four periods of 10 min.", "status": "referenceSite" },
+        "periodLength": { "cite": "FIBA Official Basketball Rules, Art. 8.1.", "status": "referenceSite" },
+        "foulLimit": { "cite": "FIBA Official Basketball Rules, Art. 40 — 5 fouls and the player leaves the game.", "status": "sourced" },
+        "bonusThreshold": { "cite": "FIBA Official Basketball Rules, Art. 41 — team foul penalty situation from the 5th team foul in a period.", "status": "sourced" },
+        "timeoutCount": { "cite": "FIBA Art. 18 — 2 timeouts in the first half, 3 in the second, 1 per overtime. The engine models a flat count with a half reset; VERIFY whether the 2/3 split needs modelling explicitly before shipping.", "status": "needsReview" },
+        "shotClockFull": { "cite": "FIBA Official Basketball Rules, Art. 29 — 24 seconds.", "status": "referenceSite" },
+        "shotClockShort": { "cite": "FIBA Official Basketball Rules, Art. 29.2 — reset to 14 after an offensive rebound.", "status": "referenceSite" },
+        "possessionArrowEnabled": { "cite": "FIBA Art. 12 — alternating possession.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "ice-hockey",
+      "name": { "en": "Ice hockey", "he": "הוקי קרח" },
+      "emoji": "🏒",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 4,
+      "defaultThemeID": "sky",
+      "rules": {
+        "sideCount": 2, "periodCount": 3, "periodLength": 1200, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 60, "breakDuration": 900,
+        "periodLabelStyle": "period", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 1, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "IIHF Official Rule Book — three 20-minute periods.", "status": "referenceSite" },
+        "periodLength": { "cite": "IIHF Official Rule Book.", "status": "referenceSite" },
+        "timeoutCount": { "cite": "IIHF — one 30-second timeout per team per game.", "status": "sourced" },
+        "breakDuration": { "cite": "Intermission length varies by competition (15-18 min). Default 15; CHECK against the target league.", "status": "needsReview" },
+        "foulTrackingEnabled": { "cite": "Penalties are time-based, not a foul count — the penalty-box model is out of scope for the generic team engine in v1.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "field-hockey",
+      "name": { "en": "Field hockey", "he": "הוקי שדה" },
+      "emoji": "🏑",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 5,
+      "defaultThemeID": "grass",
+      "rules": {
+        "sideCount": 2, "periodCount": 2, "periodLength": 2100, "countsUp": false,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 600,
+        "periodLabelStyle": "half", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "Two halves of 35 min, per the reference site.", "status": "referenceSite" },
+        "periodLength": { "cite": "Reference site parameter.", "status": "referenceSite" },
+        "format": { "cite": "IMPORTANT: FIH moved international matches to four 15-minute quarters in 2019. The 2x35 format persists in many domestic and club competitions. This preset keeps the reference-site format as the default; consider shipping a second 'Field hockey (FIH quarters)' preset before submission.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "handball",
+      "name": { "en": "Handball", "he": "כדוריד" },
+      "emoji": "🤾",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 6,
+      "defaultThemeID": "amber",
+      "rules": {
+        "sideCount": 2, "periodCount": 2, "periodLength": 1800, "countsUp": true,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 600,
+        "periodLabelStyle": "half", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 3, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "IHF Rules of the Game, Rule 2:1 — two halves of 30 min.", "status": "referenceSite" },
+        "periodLength": { "cite": "IHF Rules of the Game, Rule 2:1.", "status": "referenceSite" },
+        "timeoutCount": { "cite": "IHF Rule 2:10 — three team timeouts per match, no more than two per half.", "status": "sourced" },
+        "breakDuration": { "cite": "IHF Rule 2:9 — half-time interval normally 10 min.", "status": "sourced" }
+      }
+    },
+    {
+      "slug": "rugby",
+      "name": { "en": "Rugby", "he": "רוגבי" },
+      "emoji": "🏉",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 7,
+      "defaultThemeID": "forest",
+      "rules": {
+        "sideCount": 2, "periodCount": 2, "periodLength": 2400, "countsUp": true,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 900,
+        "periodLabelStyle": "half", "scoreIncrements": [3, 5, 7],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "World Rugby Law 5.1 — two halves of not more than 40 min.", "status": "referenceSite" },
+        "periodLength": { "cite": "World Rugby Law 5.1.", "status": "referenceSite" },
+        "scoreIncrements": { "cite": "World Rugby Law 8 — penalty/drop goal 3, try 5, conversion 2 (try+conversion 7). Increments offered: 3, 5, 7. CHECK whether a separate +2 conversion button is wanted rather than the combined 7.", "status": "needsReview" },
+        "breakDuration": { "cite": "World Rugby Law 5.2 — half-time interval not exceeding 15 min.", "status": "sourced" }
+      }
+    },
+    {
+      "slug": "waterpolo",
+      "name": { "en": "Water polo", "he": "כדורמים" },
+      "emoji": "🤽",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 8,
+      "defaultThemeID": "cyan",
+      "rules": {
+        "sideCount": 2, "periodCount": 4, "periodLength": 480, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 60, "breakDuration": 120,
+        "periodLabelStyle": "period", "scoreIncrements": [1],
+        "foulTrackingEnabled": true, "foulLimit": 3, "foulsResetPerPeriod": false,
+        "timeoutCount": 2, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": true, "shotClockFull": 30, "shotClockShort": 20,
+        "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "Four periods of 8 min, per the reference site.", "status": "referenceSite" },
+        "periodLength": { "cite": "Reference site parameter.", "status": "referenceSite" },
+        "shotClockFull": { "cite": "World Aquatics — 30-second possession clock.", "status": "referenceSite" },
+        "shotClockShort": { "cite": "World Aquatics reset to 20 s after a corner throw or exclusion. VERIFY the current reset value and the exact triggering situations.", "status": "needsReview" },
+        "foulLimit": { "cite": "Three personal fouls and the player is excluded for the match. VERIFY against current World Aquatics rules.", "status": "needsReview" },
+        "timeoutCount": { "cite": "Team timeout allocation varies by competition. VERIFY.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "futsal",
+      "name": { "en": "Futsal", "he": "פוטסל" },
+      "emoji": "🥅",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 9,
+      "defaultThemeID": "dark",
+      "rules": {
+        "sideCount": 2, "periodCount": 2, "periodLength": 1200, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 60, "breakDuration": 900,
+        "periodLabelStyle": "half", "scoreIncrements": [1],
+        "foulTrackingEnabled": true, "foulLimit": 5, "foulsResetPerPeriod": true, "bonusThreshold": 5,
+        "timeoutCount": 1, "timeoutsResetAtHalf": true,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "FIFA Futsal Laws of the Game, Law 7 — two halves of 20 min of stopped clock.", "status": "referenceSite" },
+        "periodLength": { "cite": "FIFA Futsal Laws of the Game, Law 7.", "status": "referenceSite" },
+        "foulLimit": { "cite": "FIFA Futsal Law 12 — accumulated fouls; from the 6th in a half the opponent receives a direct free kick with no wall. Limit 5 means the 6th triggers the penalty.", "status": "sourced" },
+        "foulsResetPerPeriod": { "cite": "FIFA Futsal Law 12 — accumulated fouls reset at half-time.", "status": "sourced" },
+        "timeoutCount": { "cite": "FIFA Futsal Law 7 — one timeout per team per half.", "status": "sourced" }
+      }
+    },
+    {
+      "slug": "lacrosse",
+      "name": { "en": "Lacrosse", "he": "לקרוס" },
+      "emoji": "🥍",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 10,
+      "defaultThemeID": "grass",
+      "rules": {
+        "sideCount": 2, "periodCount": 4, "periodLength": 720, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 60, "breakDuration": 600,
+        "periodLabelStyle": "quarter", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 2, "timeoutsResetAtHalf": true,
+        "shotClockEnabled": false, "shotClockFull": 80, "shotClockShort": 80,
+        "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "Four quarters of 12 min, per the reference site.", "status": "referenceSite" },
+        "periodLength": { "cite": "Reference site parameter. NOTE: NCAA men's field lacrosse uses 15-minute quarters and World Lacrosse differs again — 12 min matches many youth and box competitions. VERIFY which code this preset should target.", "status": "needsReview" },
+        "shotClockEnabled": { "cite": "NCAA men's lacrosse uses an 80-second shot clock; World Lacrosse rules differ. Left OFF by default with 80 s preconfigured so an operator can switch it on. VERIFY.", "status": "needsReview" },
+        "timeoutCount": { "cite": "Varies by code. VERIFY.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "netball",
+      "name": { "en": "Netball", "he": "נטבול" },
+      "emoji": "🏐",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 11,
+      "defaultThemeID": "coral",
+      "rules": {
+        "sideCount": 2, "periodCount": 4, "periodLength": 900, "countsUp": false,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 240,
+        "periodLabelStyle": "quarter", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "World Netball Rules — four quarters of 15 min.", "status": "referenceSite" },
+        "periodLength": { "cite": "World Netball Rules.", "status": "referenceSite" },
+        "breakDuration": { "cite": "Quarter-time intervals are shorter than half-time (roughly 4 and 12 min respectively). A single break duration cannot express both — CHECK whether per-break durations are needed.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "boxing",
+      "name": { "en": "Boxing", "he": "אגרוף" },
+      "emoji": "🥊",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 12,
+      "defaultThemeID": "black",
+      "rules": {
+        "sideCount": 2, "periodCount": 12, "periodLength": 180, "countsUp": false,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 60,
+        "periodLabelStyle": "round", "scoreIncrements": [1],
+        "foulTrackingEnabled": true, "foulLimit": 3, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "12 rounds of 3 min — championship distance, per the reference site.", "status": "referenceSite" },
+        "periodLength": { "cite": "Reference site parameter.", "status": "referenceSite" },
+        "breakDuration": { "cite": "One minute rest between rounds.", "status": "sourced" },
+        "scoreIncrements": { "cite": "The reference site specifies the 10-point must system. That is a per-round judging score (10-9, 10-8) rather than a running tally, and the generic team engine cannot express it. v1 offers a plain increment; a proper round-by-round scorecard belongs with the specialised engines. FLAGGED as a known gap.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "wrestling",
+      "name": { "en": "Wrestling", "he": "היאבקות" },
+      "emoji": "🤼",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 13,
+      "defaultThemeID": "amber",
+      "rules": {
+        "sideCount": 2, "periodCount": 2, "periodLength": 180, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 30, "breakDuration": 30,
+        "periodLabelStyle": "period", "scoreIncrements": [1, 2, 4, 5],
+        "foulTrackingEnabled": true, "foulLimit": 3, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "periodCount": { "cite": "Two periods of 3 min, per the reference site.", "status": "referenceSite" },
+        "periodLength": { "cite": "Reference site parameter.", "status": "referenceSite" },
+        "scoreIncrements": { "cite": "United World Wrestling freestyle awards 1, 2, 4 and 5 point actions. VERIFY the current value set and whether folkstyle needs its own preset.", "status": "needsReview" },
+        "breakDuration": { "cite": "30-second break between periods in UWW freestyle. VERIFY.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "kabaddi",
+      "name": { "en": "Kabaddi", "he": "קבאדי" },
+      "emoji": "🤸",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 14,
+      "defaultThemeID": "coral",
+      "rules": {
+        "sideCount": 2, "periodCount": 2, "periodLength": 1200, "countsUp": false,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 300,
+        "periodLabelStyle": "half", "scoreIncrements": [1, 2],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 2, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": true, "shotClockFull": 30, "shotClockShort": 30,
+        "possessionArrowEnabled": true, "possessionLabel": "RAID"
+      },
+      "sources": {
+        "periodCount": { "cite": "Two halves of 20 min with a 30-second raid clock, per the reference site.", "status": "referenceSite" },
+        "periodLength": { "cite": "Reference site parameter.", "status": "referenceSite" },
+        "shotClockFull": { "cite": "30-second raid clock, per the reference site. Modelled on the shot clock.", "status": "referenceSite" },
+        "breakDuration": { "cite": "5-minute half-time in Pro Kabaddi. VERIFY against the International Kabaddi Federation rules.", "status": "needsReview" },
+        "timeoutCount": { "cite": "VERIFY.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "simple",
+      "name": { "en": "Simple", "he": "פשוט" },
+      "emoji": "🔢",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 15,
+      "defaultThemeID": "dark",
+      "rules": {
+        "sideCount": 2, "periodCount": 1, "periodLength": 600, "countsUp": false,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 0,
+        "periodLabelStyle": "period", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "all": { "cite": "10-minute countdown plus two scores, per the reference site. No governing body applies.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "basketball-shot-clock",
+      "name": { "en": "Basketball shot clock", "he": "שעון זריקה" },
+      "emoji": "⏱️",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 16,
+      "defaultThemeID": "black",
+      "rules": {
+        "sideCount": 2, "periodCount": 1, "periodLength": 0, "countsUp": false,
+        "showTenths": true, "tenthsThreshold": 5, "breakDuration": 0,
+        "periodLabelStyle": "period", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": true, "shotClockFull": 24, "shotClockShort": 14,
+        "possessionArrowEnabled": false
+      },
+      "sources": {
+        "all": { "cite": "Shot clock only, 24/14, per the reference site. Pairs with the 'Shot clock only' external board mode (§6.1).", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "stopwatch",
+      "name": { "en": "Stopwatch", "he": "שעון עצר" },
+      "emoji": "⏲️",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 17,
+      "defaultThemeID": "black",
+      "rules": {
+        "sideCount": 1, "periodCount": 1, "periodLength": 0, "countsUp": true,
+        "showTenths": true, "tenthsThreshold": 86400, "breakDuration": 0,
+        "periodLabelStyle": "period", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "all": { "cite": "Timer only, per the reference site. tenthsThreshold is set past any plausible elapsed time so tenths always show.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "half-time-clock",
+      "name": { "en": "Half-time clock", "he": "שעון מחצית" },
+      "emoji": "☕️",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 18,
+      "defaultThemeID": "dark",
+      "rules": {
+        "sideCount": 1, "periodCount": 1, "periodLength": 900, "countsUp": false,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 0,
+        "periodLabelStyle": "period", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "all": { "cite": "15:00 countdown, per the reference site.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "click-counter",
+      "name": { "en": "Simple counter", "he": "מונה פשוט" },
+      "emoji": "👆",
+      "engine": "team",
+      "category": "team",
+      "sortIndex": 19,
+      "defaultThemeID": "dark",
+      "rules": {
+        "sideCount": 1, "periodCount": 1, "periodLength": 0, "countsUp": true,
+        "showTenths": false, "tenthsThreshold": 0, "breakDuration": 0,
+        "periodLabelStyle": "period", "scoreIncrements": [1],
+        "foulTrackingEnabled": false, "foulLimit": 0, "foulsResetPerPeriod": false,
+        "timeoutCount": 0, "timeoutsResetAtHalf": false,
+        "shotClockEnabled": false, "possessionArrowEnabled": false
+      },
+      "sources": {
+        "all": { "cite": "Single tally number, per the reference site.", "status": "referenceSite" }
+      }
+    },
+
+    {
+      "slug": "match",
+      "name": { "en": "Custom match", "he": "משחק מותאם" },
+      "emoji": "🎯",
+      "engine": "setMatch",
+      "category": "setMatch",
+      "sortIndex": 0,
+      "defaultThemeID": "dark",
+      "rules": {
+        "setsToWin": 2, "pointsPerSet": 21, "decidingSetPoints": 21, "winByTwo": true,
+        "serveTracking": true, "servesPerRotation": 1, "notation": "numeric",
+        "tiebreakEnabled": false, "tiebreakPoints": 7, "matchTiebreak": false
+      },
+      "sources": {
+        "all": { "cite": "Blank rally-scored template — every option exposed, no governing body applies.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "tennis",
+      "name": { "en": "Tennis", "he": "טניס" },
+      "emoji": "🎾",
+      "engine": "setMatch",
+      "category": "setMatch",
+      "sortIndex": 1,
+      "defaultThemeID": "grass",
+      "rules": {
+        "setsToWin": 2, "pointsPerSet": 6, "decidingSetPoints": 6, "winByTwo": true,
+        "serveTracking": true, "servesPerRotation": 1, "notation": "tennis",
+        "tiebreakEnabled": true, "tiebreakPoints": 7, "matchTiebreak": false
+      },
+      "sources": {
+        "notation": { "cite": "ITF Rules of Tennis, Rule 5 — 15, 30, 40, deuce, advantage.", "status": "referenceSite" },
+        "pointsPerSet": { "cite": "ITF Rules of Tennis, Rule 6 — first to 6 games, by a margin of two.", "status": "sourced" },
+        "tiebreakPoints": { "cite": "ITF Rules of Tennis, Rule 6 — 7-point tie-break at 6 games all.", "status": "referenceSite" },
+        "setsToWin": { "cite": "Best of 3 sets is the common default; Grand Slam men's singles is best of 5. User-editable.", "status": "sourced" },
+        "matchTiebreak": { "cite": "Final-set format varies widely by tournament (10-point match tie-break, or a tie-break at 6-6). Left OFF by default. VERIFY the default users expect.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "table-tennis-ping-pong",
+      "name": { "en": "Table tennis", "he": "טניס שולחן" },
+      "emoji": "🏓",
+      "engine": "setMatch",
+      "category": "setMatch",
+      "sortIndex": 2,
+      "defaultThemeID": "sky",
+      "rules": {
+        "setsToWin": 3, "pointsPerSet": 11, "decidingSetPoints": 11, "winByTwo": true,
+        "serveTracking": true, "servesPerRotation": 2, "notation": "numeric",
+        "tiebreakEnabled": false, "tiebreakPoints": 7, "matchTiebreak": false
+      },
+      "sources": {
+        "pointsPerSet": { "cite": "ITTF Handbook, Law 2.11 — a game is won by the first player to 11, at two clear points.", "status": "referenceSite" },
+        "setsToWin": { "cite": "Best of 5 games, per the reference site — 3 to win.", "status": "referenceSite" },
+        "servesPerRotation": { "cite": "ITTF Handbook, Law 2.13 — service alternates every 2 points (every point from 10-10).", "status": "sourced" }
+      }
+    },
+    {
+      "slug": "badminton",
+      "name": { "en": "Badminton", "he": "בדמינטון" },
+      "emoji": "🏸",
+      "engine": "setMatch",
+      "category": "setMatch",
+      "sortIndex": 3,
+      "defaultThemeID": "dark",
+      "rules": {
+        "setsToWin": 2, "pointsPerSet": 21, "decidingSetPoints": 21, "winByTwo": true,
+        "hardCap": 30, "serveTracking": true, "servesPerRotation": 1, "notation": "numeric",
+        "tiebreakEnabled": false, "tiebreakPoints": 7, "matchTiebreak": false
+      },
+      "sources": {
+        "pointsPerSet": { "cite": "BWF Laws of Badminton, Law 7 — a game is won at 21 points.", "status": "referenceSite" },
+        "setsToWin": { "cite": "Best of 3 games, per the reference site.", "status": "referenceSite" },
+        "hardCap": { "cite": "BWF Laws of Badminton, Law 7.4 — the side reaching 30 wins that game.", "status": "referenceSite" },
+        "winByTwo": { "cite": "BWF Law 7.3 — two clear points required from 20-all.", "status": "sourced" }
+      }
+    },
+    {
+      "slug": "volleyball",
+      "name": { "en": "Volleyball", "he": "כדורעף" },
+      "emoji": "🏐",
+      "engine": "setMatch",
+      "category": "setMatch",
+      "sortIndex": 4,
+      "defaultThemeID": "amber",
+      "rules": {
+        "setsToWin": 3, "pointsPerSet": 25, "decidingSetPoints": 15, "winByTwo": true,
+        "serveTracking": true, "servesPerRotation": 1, "notation": "numeric",
+        "tiebreakEnabled": false, "tiebreakPoints": 7, "matchTiebreak": false
+      },
+      "sources": {
+        "pointsPerSet": { "cite": "FIVB Official Volleyball Rules, Rule 6.3 — a set is won at 25 points with a two-point lead.", "status": "referenceSite" },
+        "setsToWin": { "cite": "Best of 5 sets, per the reference site — 3 to win.", "status": "referenceSite" },
+        "decidingSetPoints": { "cite": "FIVB Rule 6.3.2 — the deciding 5th set is played to 15.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "squash",
+      "name": { "en": "Squash", "he": "סקווש" },
+      "emoji": "🎾",
+      "engine": "setMatch",
+      "category": "setMatch",
+      "sortIndex": 5,
+      "defaultThemeID": "forest",
+      "rules": {
+        "setsToWin": 3, "pointsPerSet": 11, "decidingSetPoints": 11, "winByTwo": true,
+        "serveTracking": true, "servesPerRotation": 1, "notation": "numeric",
+        "tiebreakEnabled": false, "tiebreakPoints": 7, "matchTiebreak": false
+      },
+      "sources": {
+        "pointsPerSet": { "cite": "WSF Rules of Squash — PARS (point-a-rally scoring) to 11.", "status": "referenceSite" },
+        "setsToWin": { "cite": "Best of 5 games — 3 to win. VERIFY whether best-of-3 is the better default for club play.", "status": "needsReview" },
+        "winByTwo": { "cite": "WSF — at 10-10 a player must lead by two.", "status": "sourced" }
+      }
+    },
+    {
+      "slug": "pickleball",
+      "name": { "en": "Pickleball", "he": "פיקלבול" },
+      "emoji": "🥒",
+      "engine": "setMatch",
+      "category": "setMatch",
+      "sortIndex": 6,
+      "defaultThemeID": "coral",
+      "rules": {
+        "setsToWin": 2, "pointsPerSet": 11, "decidingSetPoints": 11, "winByTwo": true,
+        "serveTracking": true, "servesPerRotation": 1, "notation": "numeric",
+        "tiebreakEnabled": false, "tiebreakPoints": 7, "matchTiebreak": false
+      },
+      "sources": {
+        "pointsPerSet": { "cite": "USA Pickleball Official Rulebook — games are normally to 11, win by 2.", "status": "referenceSite" },
+        "setsToWin": { "cite": "Best of 3 games, per the reference site.", "status": "referenceSite" },
+        "serveTracking": { "cite": "Pickleball's server number (1 or 2 in doubles) and side-out scoring are not expressible in the generic set-match serve model. FLAGGED: decide at M4 whether pickleball needs a dedicated serve display.", "status": "needsReview" }
+      }
+    },
+    {
+      "slug": "darts",
+      "name": { "en": "Darts", "he": "חצים" },
+      "emoji": "🎯",
+      "engine": "setMatch",
+      "category": "setMatch",
+      "sortIndex": 7,
+      "defaultThemeID": "black",
+      "rules": {
+        "setsToWin": 3, "pointsPerSet": 0, "decidingSetPoints": 0, "winByTwo": false,
+        "serveTracking": false, "servesPerRotation": 1, "notation": "dartsCountdown",
+        "tiebreakEnabled": false, "startScore": 501, "legsPerSet": 3, "doubleOut": true
+      },
+      "sources": {
+        "startScore": { "cite": "501 countdown, per the reference site.", "status": "referenceSite" },
+        "setsToWin": { "cite": "Best of 5 legs, per the reference site. NOTE: the reference parameter says legs, not sets — this preset models a single set of 5 legs (3 to win). VERIFY the intended structure.", "status": "needsReview" },
+        "doubleOut": { "cite": "PDC/WDF rules — a leg finishes on a double.", "status": "sourced" },
+        "checkout": { "cite": "The checkout suggestion display specified in §6.2 is an M4 deliverable and is not modelled in the rules.", "status": "needsReview" }
+      }
+    },
+
+    {
+      "slug": "american-football",
+      "name": { "en": "American football", "he": "פוטבול אמריקאי" },
+      "emoji": "🏈",
+      "engine": "specialised",
+      "category": "specialised",
+      "sortIndex": 0,
+      "defaultThemeID": "forest",
+      "rules": {
+        "board": "americanFootball",
+        "americanFootball": {
+          "quarterCount": 4, "quarterLength": 900,
+          "playClockNormal": 40, "playClockShort": 25,
+          "timeoutsPerHalf": 3, "fieldLength": 100,
+          "downsToConvert": 4, "yardsToConvert": 10
+        }
+      },
+      "sources": {
+        "quarterLength": { "cite": "15-minute quarters at professional and college level; high-school uses 12. VERIFY which default is wanted.", "status": "needsReview" },
+        "playClockNormal": { "cite": "40-second play clock, resetting to 25 in defined situations.", "status": "sourced" },
+        "timeoutsPerHalf": { "cite": "Three timeouts per team per half.", "status": "sourced" },
+        "engine": { "cite": "Specialised engine, sequenced at M6 (§18). Rules are modelled to the confirmed §8.3 parameter set only.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "cricket",
+      "name": { "en": "Cricket", "he": "קריקט" },
+      "emoji": "🏏",
+      "engine": "specialised",
+      "category": "specialised",
+      "sortIndex": 1,
+      "defaultThemeID": "grass",
+      "rules": {
+        "board": "cricket",
+        "cricket": {
+          "format": "t20", "oversPerInnings": 20, "ballsPerOver": 6,
+          "wicketsPerInnings": 10, "inningsPerSide": 1,
+          "showRunRate": true, "showRequiredRate": true
+        }
+      },
+      "sources": {
+        "oversPerInnings": { "cite": "T20 default — 20 overs per innings. ODI is 50; Test is unlimited across 2 innings per side.", "status": "referenceSite" },
+        "ballsPerOver": { "cite": "MCC Laws of Cricket, Law 17.1 — six balls per over.", "status": "sourced" },
+        "wicketsPerInnings": { "cite": "Ten wickets end an innings.", "status": "sourced" },
+        "engine": { "cite": "Specialised engine, sequenced at M6 (§18). NOTE §12/§17 risk 12: per-ball events over a long innings make this the largest event log in the app.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "baseball",
+      "name": { "en": "Baseball", "he": "בייסבול" },
+      "emoji": "⚾️",
+      "engine": "specialised",
+      "category": "specialised",
+      "sortIndex": 2,
+      "defaultThemeID": "dark",
+      "rules": {
+        "board": "baseball",
+        "baseball": {
+          "inningCount": 9, "outsPerHalfInning": 3, "strikesPerOut": 3,
+          "ballsPerWalk": 4, "showHitsAndErrors": true, "allowsExtraInnings": true
+        }
+      },
+      "sources": {
+        "inningCount": { "cite": "Nine innings in the standard game.", "status": "referenceSite" },
+        "outsPerHalfInning": { "cite": "MLB Official Baseball Rules — three outs retire the side.", "status": "sourced" },
+        "engine": { "cite": "Specialised engine, sequenced at M6 (§18).", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "chess-clock",
+      "name": { "en": "Chess clock", "he": "שעון שחמט" },
+      "emoji": "♟️",
+      "engine": "specialised",
+      "category": "specialised",
+      "sortIndex": 3,
+      "defaultThemeID": "black",
+      "rules": {
+        "board": "chessClock",
+        "chessClock": {
+          "baseTime": 300, "incrementMode": "fischer", "incrementSeconds": 3,
+          "countMoves": true, "flagEndsGame": true
+        }
+      },
+      "sources": {
+        "baseTime": { "cite": "5|3 blitz is a widely used default. FIDE time controls vary enormously by event; fully user-editable.", "status": "sourced" },
+        "incrementMode": { "cite": "Fischer increment, with Bronstein optional, per §6.3.", "status": "referenceSite" },
+        "engine": { "cite": "Specialised engine, sequenced FIRST at M6 as the least difficult (§18).", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "race-timer",
+      "name": { "en": "Race timer", "he": "שעון מרוץ" },
+      "emoji": "🏁",
+      "engine": "specialised",
+      "category": "specialised",
+      "sortIndex": 4,
+      "defaultThemeID": "amber",
+      "rules": {
+        "board": "raceTimer",
+        "raceTimer": { "racerCount": 4, "recordSplits": true, "lowerTimeWins": true }
+      },
+      "sources": {
+        "all": { "cite": "Multi-racer stopwatch with lap times, per the reference site. No governing body applies. Specialised engine, sequenced second at M6.", "status": "referenceSite" }
+      }
+    },
+
+    {
+      "slug": "leaderboard",
+      "name": { "en": "Leaderboard", "he": "טבלת מובילים" },
+      "emoji": "🥇",
+      "engine": "list",
+      "category": "list",
+      "sortIndex": 0,
+      "defaultThemeID": "dark",
+      "rules": {
+        "style": "leaderboard", "higherIsBetter": true, "sharedRanksOnTie": true,
+        "participantCount": 6
+      },
+      "sources": {
+        "all": { "cite": "Ranked individuals with live re-sort, per the reference site. Ties are handled explicitly (§6.5).", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "standings",
+      "name": { "en": "Standings", "he": "טבלת ליגה" },
+      "emoji": "📊",
+      "engine": "list",
+      "category": "list",
+      "sortIndex": 1,
+      "defaultThemeID": "light",
+      "rules": {
+        "style": "standings",
+        "columns": ["played", "won", "drawn", "lost", "goalsFor", "goalsAgainst", "goalDifference", "points"],
+        "pointsForWin": 3, "pointsForDraw": 1, "pointsForLoss": 0,
+        "participantCount": 8
+      },
+      "sources": {
+        "pointsForWin": { "cite": "Three points for a win is the association-football convention and the most common default. Fully user-editable per §8.5.", "status": "sourced" },
+        "columns": { "cite": "Configurable P/W/D/L/GF/GA/GD/Pts, per the reference site.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "tournament",
+      "name": { "en": "Tournament bracket", "he": "טבלת טורניר" },
+      "emoji": "🏆",
+      "engine": "list",
+      "category": "list",
+      "sortIndex": 2,
+      "defaultThemeID": "dark",
+      "rules": {
+        "style": "bracket", "bracketSize": 8, "higherIsBetter": true
+      },
+      "sources": {
+        "all": { "cite": "Single elimination, 4/8/16/32 seeds with byes and auto-advancing winners, per the reference site.", "status": "referenceSite" }
+      }
+    },
+    {
+      "slug": "scoresheet",
+      "name": { "en": "Score sheet", "he": "דף ניקוד" },
+      "emoji": "📝",
+      "engine": "list",
+      "category": "list",
+      "sortIndex": 3,
+      "defaultThemeID": "light",
+      "rules": {
+        "style": "scoreSheet", "roundCount": 10, "participantCount": 4,
+        "showRunningTotals": true, "higherIsBetter": true
+      },
+      "sources": {
+        "all": { "cite": "Players x rounds grid with running totals, per the reference site. §19.2 leaves board-game portfolio integration open — the model is kept general so that stays a data question.", "status": "referenceSite" }
+      }
+    }
+  ]
+}

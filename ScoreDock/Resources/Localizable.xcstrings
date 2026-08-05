@@ -1,0 +1,6627 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "shouldTranslate" : false
+    },
+    " " : {
+      "shouldTranslate" : false
+    },
+    "!" : {
+      "shouldTranslate" : false
+    },
+    "·" : {
+      "shouldTranslate" : false
+    },
+    "“%@” is now editable in Library → My Games." : {
+      "comment" : "Duplicate confirmation body",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אפשר לערוך את „%@” בספרייה ← המשחקים שלי."
+          }
+        }
+      }
+    },
+    "#" : {
+      "comment" : "Jersey field",
+      "shouldTranslate" : false
+    },
+    "#%@" : {
+      "shouldTranslate" : false
+    },
+    "%@" : {
+      "comment" : "Accessibility",
+      "shouldTranslate" : false
+    },
+    "%@ & %lld" : {
+      "comment" : "Football down and distance",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ & %2$lld"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ ו-%lld"
+          }
+        }
+      }
+    },
+    "%@ & GOAL" : {
+      "comment" : "Football down and distance",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ ושער"
+          }
+        }
+      }
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@ %@ %@%lld" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@ %3$@%4$lld"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@ %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$lld"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@ +%lld" : {
+      "comment" : "Attribution title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ +%2$lld"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ ‎+%lld"
+          }
+        }
+      }
+    },
+    "%@ advances" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ עולה לשלב הבא"
+          }
+        }
+      }
+    },
+    "%@ avg" : {
+      "comment" : "Player average",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ממוצע %@"
+          }
+        }
+      }
+    },
+    "%@ copy" : {
+      "comment" : "Duplicated preset name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ — עותק"
+          }
+        }
+      }
+    },
+    "%@ finished" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ סיים"
+          }
+        }
+      }
+    },
+    "%@ foul" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עבירה של %@"
+          }
+        }
+      }
+    },
+    "%@ fouls" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עבירות של %@"
+          }
+        }
+      }
+    },
+    "%@ lap" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקפה של %@"
+          }
+        }
+      }
+    },
+    "%@ led for" : {
+      "comment" : "Stat",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ הוביל במשך"
+          }
+        }
+      }
+    },
+    "%@ moved" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ שיחק"
+          }
+        }
+      }
+    },
+    "%@ ran out of time — %@ wins on time." : {
+      "comment" : "Chess clock result",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ ran out of time — %2$@ wins on time."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ל-%@ נגמר הזמן — %@ מנצח על הזמן."
+          }
+        }
+      }
+    },
+    "%@ score" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניקוד %@"
+          }
+        }
+      }
+    },
+    "%@ timeout" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פסק זמן של %@"
+          }
+        }
+      }
+    },
+    "%@ timeouts remaining" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נותרו %@ פסקי זמן"
+          }
+        }
+      }
+    },
+    "%@ TO · %lld" : {
+      "comment" : "Football timeout control",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ TO · %2$lld"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ פסק זמן · %lld"
+          }
+        }
+      }
+    },
+    "%@ to throw" : {
+      "comment" : "Darts turn indicator",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תור הזריקה של %@"
+          }
+        }
+      }
+    },
+    "%@ wins" : {
+      "comment" : "Record detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ מנצח"
+          }
+        }
+      }
+    },
+    "%@, %@" : {
+      "comment" : "Accessibility value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@, %@, %@" : {
+      "comment" : "Accessibility value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@, %3$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@, count %@, %lld out" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, count %2$@, %3$lld out"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@, ספירה %@, %lld אאוט"
+          }
+        }
+      }
+    },
+    "%@, rank %lld" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, rank %2$lld"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@, מקום %lld"
+          }
+        }
+      }
+    },
+    "%@|%lld Bronstein" : {
+      "comment" : "Chess time control",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@|%2$lld Bronstein"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@|%lld ברונשטיין"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "shouldTranslate" : false
+    },
+    "%lld for %lld, %@ overs" : {
+      "comment" : "Accessibility value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld for %2$lld, %3$@ overs"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld על %lld, %@ אוברים"
+          }
+        }
+      }
+    },
+    "%lld in a row" : {
+      "comment" : "Record detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld ברצף"
+          }
+        }
+      }
+    },
+    "%lld LAPS" : {
+      "comment" : "Race timer label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld הקפות"
+          }
+        }
+      }
+    },
+    "%lld min" : {
+      "comment" : "Minutes value\nWhole-minute duration",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld דק׳"
+          }
+        }
+      }
+    },
+    "%lld needed off %lld balls" : {
+      "comment" : "Cricket chase",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld needed off %2$lld balls"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דרושים %lld מ-%lld כדורים"
+          }
+        }
+      }
+    },
+    "%lld played" : {
+      "comment" : "Record detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld משחקים"
+          }
+        }
+      }
+    },
+    "%lld players" : {
+      "comment" : "Roster count",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld שחקנים"
+          }
+        }
+      }
+    },
+    "%lld runs, %lld hits, %lld errors" : {
+      "comment" : "Accessibility value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld runs, %2$lld hits, %3$lld errors"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld ריצות, %lld חבטות, %lld שגיאות"
+          }
+        }
+      }
+    },
+    "%lld s" : {
+      "comment" : "Seconds value",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld שנ׳"
+          }
+        }
+      }
+    },
+    "%lld seeds · %lld decided" : {
+      "comment" : "Bracket summary — seeds, then matches with a result",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld seeds · %2$lld decided"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld מדורגים · %lld הוכרעו"
+          }
+        }
+      }
+    },
+    "%lld sets, %@" : {
+      "comment" : "Accessibility value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld sets, %2$@"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld מערכות, %@"
+          }
+        }
+      }
+    },
+    "%lld team fouls" : {
+      "comment" : "Bonus threshold value",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld עבירות קבוצתיות"
+          }
+        }
+      }
+    },
+    "%lld win · %lld draw · %lld loss" : {
+      "comment" : "Standings points allocation",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld win · %2$lld draw · %3$lld loss"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld ניצחון · %lld תיקו · %lld הפסד"
+          }
+        }
+      }
+    },
+    "%lld–%lld–%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld–%2$lld–%3$lld"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%lld, %lld timeouts left" : {
+      "comment" : "Accessibility value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld, %2$lld timeouts left"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%lld, נותרו %lld פסקי זמן"
+          }
+        }
+      }
+    },
+    "%lld, reset at half" : {
+      "comment" : "Timeout allowance",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld, מתאפסים במחצית"
+          }
+        }
+      }
+    },
+    "%lld." : {
+      "shouldTranslate" : false
+    },
+    "+%lld" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "‎+%lld"
+          }
+        }
+      }
+    },
+    "+%lld more" : {
+      "comment" : "Table summary — places not listed",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ועוד %lld"
+          }
+        }
+      }
+    },
+    "+1" : {
+      "comment" : "Award a point",
+      "shouldTranslate" : false
+    },
+    "=" : {
+      "shouldTranslate" : false
+    },
+    "−1" : {
+      "comment" : "Subtract a point",
+      "shouldTranslate" : false
+    },
+    "▶" : {
+      "shouldTranslate" : false
+    },
+    "●" : {
+      "shouldTranslate" : false
+    },
+    "🙂" : {
+      "shouldTranslate" : false
+    },
+    "0" : {
+      "shouldTranslate" : false
+    },
+    "1st" : {
+      "comment" : "Base",
+      "shouldTranslate" : false
+    },
+    "1ST" : {
+      "comment" : "Football down",
+      "shouldTranslate" : false
+    },
+    "1st down" : {
+      "comment" : "Football control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניסיון ראשון"
+          }
+        }
+      }
+    },
+    "2nd" : {
+      "comment" : "Base",
+      "shouldTranslate" : false
+    },
+    "2ND" : {
+      "comment" : "Football down",
+      "shouldTranslate" : false
+    },
+    "3rd" : {
+      "comment" : "Base",
+      "shouldTranslate" : false
+    },
+    "3RD" : {
+      "comment" : "Football down",
+      "shouldTranslate" : false
+    },
+    "4TH" : {
+      "comment" : "Football down",
+      "shouldTranslate" : false
+    },
+    "15 · 30 · 40 · Ad" : {
+      "comment" : "Tennis notation",
+      "shouldTranslate" : false
+    },
+    "15-minute quarters are the professional and college standard; high school plays 12. Check the code you are officiating." : {
+      "comment" : "Quarter length note",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רבעים של 15 דקות הם הסטנדרט המקצועני והאוניברסיטאי; בתיכונים משחקים 12. בדקו את התקנון שלפיו אתם שופטים."
+          }
+        }
+      }
+    },
+    "301" : {
+      "shouldTranslate" : false
+    },
+    "501" : {
+      "shouldTranslate" : false
+    },
+    "701" : {
+      "shouldTranslate" : false
+    },
+    "A player can be on several teams — club players and coaches with multiple age groups usually are." : {
+      "comment" : "Roster footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחקן יכול להשתייך לכמה קבוצות — כך זה בדרך כלל אצל שחקני מועדון ומאמנים של כמה שכבות גיל."
+          }
+        }
+      }
+    },
+    "A racer finishes automatically on their final lap." : {
+      "comment" : "Race setup footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מתחרה מסיים אוטומטית בהקפה האחרונה שלו."
+          }
+        }
+      }
+    },
+    "A scorecard image for group chats and social." : {
+      "comment" : "Share format detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תמונת כרטיס ניקוד לקבוצות צ׳אט ולרשתות."
+          }
+        }
+      }
+    },
+    "A small app mark appears in the corner of shared images and PDFs. Turning it off is free and always will be." : {
+      "comment" : "Watermark footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סימן קטן של האפליקציה מופיע בפינת התמונות וקובצי ה-PDF המשותפים. הכיבוי חינם ותמיד יישאר כך."
+          }
+        }
+      }
+    },
+    "A Test has no over limit, so the innings ends on wickets or a declaration." : {
+      "comment" : "Cricket format footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "במבחן אין הגבלת אוברים, ולכן המחזור מסתיים בשערים או בהכרזה."
+          }
+        }
+      }
+    },
+    "A USB-C or Lightning to HDMI adapter connects with no steps at all, and does not drop out mid-match. In a real venue it is the more reliable choice." : {
+      "comment" : "Wired casting advice",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מתאם USB-C או Lightning ל-HDMI מתחבר בלי שום שלב נוסף, ולא מתנתק באמצע משחק. באולם אמיתי זו הבחירה האמינה יותר."
+          }
+        }
+      }
+    },
+    "A visit that goes past zero — or leaves one, when finishing on a double — busts and the score reverts." : {
+      "comment" : "Darts footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סבב שיורד מתחת לאפס — או משאיר אחת, כשמסיימים בכפול — נפסל והניקוד חוזר לקדמותו."
+          }
+        }
+      }
+    },
+    "A walk or a hit moves only the runners who are forced. Set the rest here." : {
+      "comment" : "Runners hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הליכה או חבטה מזיזות רק את הרצים שחייבים לזוז. את השאר קבעו כאן."
+          }
+        }
+      }
+    },
+    "A wide or no-ball adds a run and does not count towards the over. Enter the extra first, then any runs the batters took." : {
+      "comment" : "Extras hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כדור רחב או כדור פסול מוסיף ריצה ואינו נספר באובר. הזינו קודם את התוספת, ואז את הריצות שהחובטים לקחו."
+          }
+        }
+      }
+    },
+    "Abandon match" : {
+      "comment" : "Confirmation action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נטישת משחק"
+          }
+        }
+      }
+    },
+    "Abandoned" : {
+      "comment" : "Match status badge\nPDF status\nText export status",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ננטש"
+          }
+        }
+      }
+    },
+    "About" : {
+      "comment" : "About title\nSettings row",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אודות"
+          }
+        }
+      }
+    },
+    "Acknowledgements" : {
+      "comment" : "About section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תודות"
+          }
+        }
+      }
+    },
+    "AD" : {
+      "comment" : "Tennis advantage",
+      "shouldTranslate" : false
+    },
+    "Add a note before sharing" : {
+      "comment" : "Report notes field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוסיפו הערה לפני השיתוף"
+          }
+        }
+      }
+    },
+    "Add emoji" : {
+      "comment" : "Identity action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוספת אמוג׳י"
+          }
+        }
+      }
+    },
+    "Add from Library" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוספה מהספרייה"
+          }
+        }
+      }
+    },
+    "Add participant" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוספת משתתף"
+          }
+        }
+      }
+    },
+    "Add photo" : {
+      "comment" : "Identity action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוספת תמונה"
+          }
+        }
+      }
+    },
+    "Add player" : {
+      "comment" : "Action\nSheet title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוספת שחקן"
+          }
+        }
+      }
+    },
+    "Add racer" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוספת מתחרה"
+          }
+        }
+      }
+    },
+    "Add team" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוספת קבוצה"
+          }
+        }
+      }
+    },
+    "Add the people you score for. They keep their photo or emoji, and build up stats across every match." : {
+      "comment" : "Empty players description",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוסיפו את האנשים שאתם מנהלים להם ניקוד. הם שומרים על התמונה או האמוג׳י שלהם, וצוברים נתונים לאורך כל המשחקים."
+          }
+        }
+      }
+    },
+    "Add to favourites" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הוסף למועדפים"
+          }
+        }
+      }
+    },
+    "ALL" : {
+      "comment" : "Score sheet subtotal row",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הכול"
+          }
+        }
+      }
+    },
+    "All bundled fonts registered" : {
+      "comment" : "Font diagnostic",
+      "extractionState" : "stale",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כל הגופנים המצורפים נרשמו"
+          }
+        }
+      }
+    },
+    "All events" : {
+      "comment" : "Timeline filter",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כל האירועים"
+          }
+        }
+      }
+    },
+    "All sounds loaded" : {
+      "comment" : "Audio diagnostic",
+      "extractionState" : "stale",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כל הצלילים נטענו"
+          }
+        }
+      }
+    },
+    "Allow extra innings" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחזורי הארכה"
+          }
+        }
+      }
+    },
+    "Alternating arrow" : {
+      "comment" : "Possession rule",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חץ לסירוגין"
+          }
+        }
+      }
+    },
+    "Anonymise names" : {
+      "comment" : "Share option",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הסתרת שמות"
+          }
+        }
+      }
+    },
+    "Any emoji" : {
+      "comment" : "Custom emoji field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כל אמוג׳י"
+          }
+        }
+      }
+    },
+    "App mark on shared images" : {
+      "comment" : "Settings row",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סמל האפליקציה בתמונות משותפות"
+          }
+        }
+      }
+    },
+    "Archive" : {
+      "comment" : "Swipe action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "העברה לארכיון"
+          }
+        }
+      }
+    },
+    "Archived" : {
+      "comment" : "Archived badge",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בארכיון"
+          }
+        }
+      }
+    },
+    "Asset diagnostics (debug)" : {
+      "comment" : "About section",
+      "extractionState" : "stale",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אבחון משאבים (ניפוי)"
+          }
+        }
+      }
+    },
+    "Awaiting verification" : {
+      "comment" : "Detail section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ממתין לאימות"
+          }
+        }
+      }
+    },
+    "B%lld" : {
+      "comment" : "Baseball inning",
+      "shouldTranslate" : false
+    },
+    "Back" : {
+      "comment" : "Control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אחורה"
+          }
+        }
+      }
+    },
+    "Back a period" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחצית אחורה"
+          }
+        }
+      }
+    },
+    "Ball" : {
+      "comment" : "Baseball pitch outcome\nControl section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כדור"
+          }
+        }
+      }
+    },
+    "Ball on" : {
+      "comment" : "Football control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כדור על"
+          }
+        }
+      }
+    },
+    "BALL ON" : {
+      "comment" : "Football board label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כדור על"
+          }
+        }
+      }
+    },
+    "Ball on %lld" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כדור על %lld"
+          }
+        }
+      }
+    },
+    "Balls per over" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כדורים באובר"
+          }
+        }
+      }
+    },
+    "Balls per walk" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כדורים להליכה"
+          }
+        }
+      }
+    },
+    "Base time" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "זמן בסיס"
+          }
+        }
+      }
+    },
+    "Based on %@" : {
+      "comment" : "Derived preset subtitle",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מבוסס על %@"
+          }
+        }
+      }
+    },
+    "Battery at %lld%%" : {
+      "comment" : "Low battery title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סוללה על %lld%%"
+          }
+        }
+      }
+    },
+    "Battery at %lld%% — plug in" : {
+      "comment" : "Low battery",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סוללה על %lld%% — חברו לחשמל"
+          }
+        }
+      }
+    },
+    "Battery low" : {
+      "comment" : "Low battery title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סוללה חלשה"
+          }
+        }
+      }
+    },
+    "Battery low — plug in" : {
+      "comment" : "Low battery",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סוללה חלשה — חברו לחשמל"
+          }
+        }
+      }
+    },
+    "BEST %@" : {
+      "comment" : "Race timer detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הכי טוב %@"
+          }
+        }
+      }
+    },
+    "Black" : {
+      "comment" : "Chess side",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחור"
+          }
+        }
+      }
+    },
+    "Board appearance" : {
+      "comment" : "Appearance title\nSettings row",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מראה הלוח"
+          }
+        }
+      }
+    },
+    "Board font" : {
+      "comment" : "Appearance section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "גופן הלוח"
+          }
+        }
+      }
+    },
+    "Bonus at" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בונוס ב-"
+          }
+        }
+      }
+    },
+    "Bowled" : {
+      "comment" : "Cricket dismissal",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הופל"
+          }
+        }
+      }
+    },
+    "Bracket" : {
+      "comment" : "List format\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "טבלת טורניר"
+          }
+        }
+      }
+    },
+    "Bracket size" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גודל הבית"
+          }
+        }
+      }
+    },
+    "Break" : {
+      "comment" : "Break button\nRule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הפסקה"
+          }
+        }
+      }
+    },
+    "BREAK" : {
+      "comment" : "Board break label\nExternal board caption",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הפסקה"
+          }
+        }
+      }
+    },
+    "Break end chime" : {
+      "comment" : "Sound name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צליל סיום הפסקה"
+          }
+        }
+      }
+    },
+    "Break ended" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ההפסקה הסתיימה"
+          }
+        }
+      }
+    },
+    "Break started" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ההפסקה החלה"
+          }
+        }
+      }
+    },
+    "Bronstein" : {
+      "comment" : "Increment mode",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ברונשטיין"
+          }
+        }
+      }
+    },
+    "Burn-in protection" : {
+      "comment" : "Settings row",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הגנה מפני צריבת מסך"
+          }
+        }
+      }
+    },
+    "BUST" : {
+      "comment" : "Darts bust marker",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פסול"
+          }
+        }
+      }
+    },
+    "By period" : {
+      "comment" : "PDF section\nReport section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לפי מחצית"
+          }
+        }
+      }
+    },
+    "BYE" : {
+      "comment" : "Bracket bye",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עלייה אוטומטית"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "comment" : "Action\nConfirmation\nDialog cancel",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ביטול"
+          }
+        }
+      }
+    },
+    "Cast over AirPlay" : {
+      "comment" : "Casting section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "העברה דרך AirPlay"
+          }
+        }
+      }
+    },
+    "Cast to TV" : {
+      "comment" : "Casting sheet title\nControl panel button",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "העברה לטלוויזיה"
+          }
+        }
+      }
+    },
+    "Casting to TV" : {
+      "comment" : "Casting badge",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "משדר לטלוויזיה"
+          }
+        }
+      }
+    },
+    "Caught" : {
+      "comment" : "Cricket dismissal",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נתפס"
+          }
+        }
+      }
+    },
+    "Champion: %@" : {
+      "comment" : "Bracket summary",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אלוף: %@"
+          }
+        }
+      }
+    },
+    "Change emoji" : {
+      "comment" : "Identity action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שינוי אמוג׳י"
+          }
+        }
+      }
+    },
+    "Change photo" : {
+      "comment" : "Identity action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שינוי תמונה"
+          }
+        }
+      }
+    },
+    "Check Target Membership and the UIAppFonts entries in Info.plist." : {
+      "comment" : "Font diagnostic hint",
+      "extractionState" : "stale",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בדקו את שיוך היעד ואת רשומות UIAppFonts בקובץ Info.plist."
+          }
+        }
+      }
+    },
+    "Choose emoji" : {
+      "comment" : "Emoji picker title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחירת אמוג׳י"
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "comment" : "Bases control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניקוי"
+          }
+        }
+      }
+    },
+    "Clock" : {
+      "comment" : "Rule summary label\nSetup field\nSetup section\nTimeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שעון"
+          }
+        }
+      }
+    },
+    "Clock set" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כוונון שעון"
+          }
+        }
+      }
+    },
+    "Clocks" : {
+      "comment" : "Control section\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שעונים"
+          }
+        }
+      }
+    },
+    "Close innings" : {
+      "comment" : "Confirmation\nCricket control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סגירת מחזור"
+          }
+        }
+      }
+    },
+    "Close this innings?" : {
+      "comment" : "Confirmation title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לסגור את המחזור?"
+          }
+        }
+      }
+    },
+    "Colour" : {
+      "comment" : "Field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צבע"
+          }
+        }
+      }
+    },
+    "Colours" : {
+      "comment" : "Editor section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צבעים"
+          }
+        }
+      }
+    },
+    "Columns" : {
+      "comment" : "Rule summary label\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עמודות"
+          }
+        }
+      }
+    },
+    "Combined CSV" : {
+      "comment" : "Batch format",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "‏CSV מאוחד"
+          }
+        }
+      }
+    },
+    "Combined PDF" : {
+      "comment" : "Batch format",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "‏PDF מאוחד"
+          }
+        }
+      }
+    },
+    "Combined text" : {
+      "comment" : "Batch format",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טקסט מאוחד"
+          }
+        }
+      }
+    },
+    "Connected" : {
+      "comment" : "Casting status",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחובר"
+          }
+        }
+      }
+    },
+    "Correct" : {
+      "comment" : "Subtract a point",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תיקון"
+          }
+        }
+      }
+    },
+    "Correction" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תיקון"
+          }
+        }
+      }
+    },
+    "Couldn't create that file" : {
+      "comment" : "Export error title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה ליצור את הקובץ"
+          }
+        }
+      }
+    },
+    "Couldn't use that image" : {
+      "comment" : "Import error title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה להשתמש בתמונה"
+          }
+        }
+      }
+    },
+    "COUNT" : {
+      "comment" : "Baseball board label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ספירה"
+          }
+        }
+      }
+    },
+    "Counts down" : {
+      "comment" : "Clock direction",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סופר לאחור"
+          }
+        }
+      }
+    },
+    "Counts up" : {
+      "comment" : "Clock direction",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סופר קדימה"
+          }
+        }
+      }
+    },
+    "Create players in Library → Players first." : {
+      "comment" : "Roster hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צרו קודם שחקנים בספרייה ← שחקנים."
+          }
+        }
+      }
+    },
+    "Credit points to players" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "זקיפת נקודות לשחקנים"
+          }
+        }
+      }
+    },
+    "Crests and photos" : {
+      "comment" : "Share contents",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סמלים ותמונות"
+          }
+        }
+      }
+    },
+    "CSV" : {
+      "comment" : "Share format",
+      "shouldTranslate" : false
+    },
+    "Darts" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חיצים"
+          }
+        }
+      }
+    },
+    "Deciding set" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מערכה מכריעה"
+          }
+        }
+      }
+    },
+    "Default jersey" : {
+      "comment" : "Field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מספר חולצה"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "comment" : "Swipe action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחיקה"
+          }
+        }
+      }
+    },
+    "Details" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פרטים"
+          }
+        }
+      }
+    },
+    "Device is hot" : {
+      "comment" : "Thermal title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המכשיר חם"
+          }
+        }
+      }
+    },
+    "Display" : {
+      "comment" : "Control\nSettings section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תצוגה"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "comment" : "Dismiss button",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סיום"
+          }
+        }
+      }
+    },
+    "Double out" : {
+      "comment" : "Darts finish rule",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום בכפול"
+          }
+        }
+      }
+    },
+    "Double tap to add a point" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקישו פעמיים כדי להוסיף נקודה"
+          }
+        }
+      }
+    },
+    "Double tap to preview" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקישו פעמיים לתצוגה מקדימה"
+          }
+        }
+      }
+    },
+    "Double tap to start or stop" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקישו פעמיים להפעלה או לעצירה"
+          }
+        }
+      }
+    },
+    "DOWN" : {
+      "comment" : "Football board label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניסיון"
+          }
+        }
+      }
+    },
+    "Down & distance" : {
+      "comment" : "Control section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניסיון ומרחק"
+          }
+        }
+      }
+    },
+    "Down %lld & %@" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Down %1$lld & %2$@"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניסיון %lld ועוד %@"
+          }
+        }
+      }
+    },
+    "Downs to convert" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניסיונות להמרה"
+          }
+        }
+      }
+    },
+    "Draws" : {
+      "comment" : "Stat label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תיקו"
+          }
+        }
+      }
+    },
+    "Duplicate and edit" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שכפל וערוך"
+          }
+        }
+      }
+    },
+    "Emoji" : {
+      "comment" : "Mark option",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אמוג׳י"
+          }
+        }
+      }
+    },
+    "Emoji reads perfectly in shared text and on a projector. A photo carries a real crest. You can set both and choose which one shows." : {
+      "comment" : "Identity footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אמוג׳י נקרא מצוין בטקסט משותף ועל מקרן. תמונה נושאת סמל אמיתי. אפשר להגדיר את שניהם ולבחור מה מוצג."
+          }
+        }
+      }
+    },
+    "Empty places become byes and advance on their own. %lld of %lld places filled." : {
+      "comment" : "Bracket footer",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Empty places become byes and advance on their own. %1$lld of %2$lld places filled."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מקומות ריקים הופכים לעלייה אוטומטית ומתקדמים מעצמם. %lld מתוך %lld מקומות מאוישים."
+          }
+        }
+      }
+    },
+    "End break" : {
+      "comment" : "Break button",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום הפסקה"
+          }
+        }
+      }
+    },
+    "End game" : {
+      "comment" : "Confirmation\nControl",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום משחק"
+          }
+        }
+      }
+    },
+    "End match" : {
+      "comment" : "Confirmation\nControl\nControl panel button",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום משחק"
+          }
+        }
+      }
+    },
+    "End race" : {
+      "comment" : "Confirmation\nControl",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום מרוץ"
+          }
+        }
+      }
+    },
+    "End this game?" : {
+      "comment" : "Confirmation title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לסיים את המשחק?"
+          }
+        }
+      }
+    },
+    "End this match?" : {
+      "comment" : "Confirmation title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לסיים את המשחק?"
+          }
+        }
+      }
+    },
+    "End this race?" : {
+      "comment" : "Confirmation title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לסיים את המרוץ?"
+          }
+        }
+      }
+    },
+    "Ends this player's move" : {
+      "comment" : "Accessibility hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מסיים את המהלך של השחקן"
+          }
+        }
+      }
+    },
+    "Enter" : {
+      "comment" : "Darts submit",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הזנה"
+          }
+        }
+      }
+    },
+    "Error" : {
+      "comment" : "Baseball pitch outcome",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שגיאה"
+          }
+        }
+      }
+    },
+    "every %lld points" : {
+      "comment" : "Serve rotation",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "כל %lld נקודות"
+          }
+        }
+      }
+    },
+    "Every action is stamped with both the time of day and the game clock, so this lines up against video afterwards." : {
+      "comment" : "Timeline footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כל פעולה מקבלת חותמת של שעת היום ושל שעון המשחק, כך שאפשר להצליב אותה מול וידאו בדיעבד."
+          }
+        }
+      }
+    },
+    "Every feature in this version is free. There is no paywall, no locked feature and no in-app purchase of any kind." : {
+      "comment" : "Free-forever statement",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כל היכולות בגרסה הזו חינמיות. אין תשלום, אין יכולת נעולה ואין רכישות מתוך האפליקציה מכל סוג."
+          }
+        }
+      }
+    },
+    "Every game you run is saved here with its full timestamped play-by-play, and never expires." : {
+      "comment" : "Empty history description",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כל משחק שתנהלו נשמר כאן עם מהלך המשחק המלא וחותמות הזמן שלו, ולא נמחק לעולם."
+          }
+        }
+      }
+    },
+    "Every theme is checked to a 7:1 contrast minimum between the digits and the background, so the board stays readable across a hall." : {
+      "comment" : "Theme section footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כל ערכת נושא נבדקת ליחס ניגודיות של 7:1 לפחות בין הספרות לרקע, כדי שהלוח יישאר קריא מקצה האולם."
+          }
+        }
+      }
+    },
+    "Exit full screen" : {
+      "comment" : "Board toolbar",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "יציאה ממסך מלא"
+          }
+        }
+      }
+    },
+    "Export %lld" : {
+      "comment" : "Batch export action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ייצוא %lld"
+          }
+        }
+      }
+    },
+    "EXT" : {
+      "comment" : "Cricket extras",
+      "shouldTranslate" : false
+    },
+    "Extras" : {
+      "comment" : "Control section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תוספות"
+          }
+        }
+      }
+    },
+    "F" : {
+      "comment" : "Foul abbreviation",
+      "shouldTranslate" : false
+    },
+    "Falls back to system" : {
+      "comment" : "Unbundled font note",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חוזר לברירת המחדל של המערכת"
+          }
+        }
+      }
+    },
+    "Fastest time wins" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הזמן המהיר מנצח"
+          }
+        }
+      }
+    },
+    "Favourite" : {
+      "comment" : "Accessibility label\nSwipe action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מועדף"
+          }
+        }
+      }
+    },
+    "Favourites" : {
+      "comment" : "Picker section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מועדפים"
+          }
+        }
+      }
+    },
+    "Feedback" : {
+      "comment" : "Settings section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "משוב"
+          }
+        }
+      }
+    },
+    "File size" : {
+      "comment" : "Share detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גודל קובץ"
+          }
+        }
+      }
+    },
+    "FIN" : {
+      "comment" : "Race timer — finished",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיים"
+          }
+        }
+      }
+    },
+    "FINAL" : {
+      "comment" : "Bracket round",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גמר"
+          }
+        }
+      }
+    },
+    "Final score and per-period breakdown" : {
+      "comment" : "Share contents",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תוצאה סופית ופירוט לפי מחציות"
+          }
+        }
+      }
+    },
+    "Finish" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום"
+          }
+        }
+      }
+    },
+    "Finish match" : {
+      "comment" : "Confirmation action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום משחק"
+          }
+        }
+      }
+    },
+    "Finish on a double" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום בכפול"
+          }
+        }
+      }
+    },
+    "First" : {
+      "comment" : "Head to head picker",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ראשון"
+          }
+        }
+      }
+    },
+    "Fischer" : {
+      "comment" : "Increment mode",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פישר"
+          }
+        }
+      }
+    },
+    "Fischer adds the increment after every move. Bronstein returns only the time the move actually used, so a fast move can never bank time." : {
+      "comment" : "Increment explanation",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שיטת פישר מוסיפה את התוספת אחרי כל מהלך. שיטת ברונשטיין מחזירה רק את הזמן שהמהלך באמת צרך, כך שמהלך מהיר לא יכול לצבור זמן."
+          }
+        }
+      }
+    },
+    "Fixed number of laps" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מספר הקפות קבוע"
+          }
+        }
+      }
+    },
+    "FLAG" : {
+      "comment" : "Chess clock — out of time",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נגמר הזמן"
+          }
+        }
+      }
+    },
+    "Flag ends the game" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום הזמן מסיים את המשחק"
+          }
+        }
+      }
+    },
+    "Format" : {
+      "comment" : "Rule summary label\nSetup field\nSetup section\nShare picker",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פורמט"
+          }
+        }
+      }
+    },
+    "Foul" : {
+      "comment" : "Add a foul\nBaseball pitch outcome",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עבירה"
+          }
+        }
+      }
+    },
+    "Foul limit" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מגבלת עבירות"
+          }
+        }
+      }
+    },
+    "Fouls & timeouts" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עבירות ופסקי זמן"
+          }
+        }
+      }
+    },
+    "Fouls reset each period" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "איפוס עבירות בכל מחצית"
+          }
+        }
+      }
+    },
+    "Four characters or fewer for narrow boards. If it doesn't fit, an emoji or crest works in its place." : {
+      "comment" : "Short name footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עד ארבעה תווים ללוחות צרים. אם זה לא נכנס, אמוג׳י או סמל ממלאים את מקומו."
+          }
+        }
+      }
+    },
+    "From matches where you credited points to players." : {
+      "comment" : "Player leaders footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ממשחקים שבהם זקפתם נקודות לשחקנים."
+          }
+        }
+      }
+    },
+    "Full board" : {
+      "comment" : "Board mode",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לוח מלא"
+          }
+        }
+      }
+    },
+    "Full detail is right for a league record. For a group chat, the summary alone usually reads better." : {
+      "comment" : "Timeline option footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פירוט מלא מתאים לרישום ליגה. לקבוצת צ׳אט, הסיכום לבדו בדרך כלל נקרא טוב יותר."
+          }
+        }
+      }
+    },
+    "Full reset" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "איפוס מלא"
+          }
+        }
+      }
+    },
+    "Full screen" : {
+      "comment" : "Control\nControl panel button",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מסך מלא"
+          }
+        }
+      }
+    },
+    "Game file" : {
+      "comment" : "Share format",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קובץ משחק"
+          }
+        }
+      }
+    },
+    "GAMES" : {
+      "comment" : "Board sublabel",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "משחקים"
+          }
+        }
+      }
+    },
+    "Games per set" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "משחקים במערכה"
+          }
+        }
+      }
+    },
+    "Games you save from Setup, or duplicate from a built-in, appear here." : {
+      "comment" : "Empty My Games",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "משחקים שתשמרו מההגדרות, או תשכפלו ממשחק מובנה, יופיעו כאן."
+          }
+        }
+      }
+    },
+    "Guest" : {
+      "comment" : "Default visitor side name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אורחת"
+          }
+        }
+      }
+    },
+    "Half-inning" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חצי מחזור"
+          }
+        }
+      }
+    },
+    "Haptics" : {
+      "comment" : "Settings row",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "רטט"
+          }
+        }
+      }
+    },
+    "Hard cap" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תקרה"
+          }
+        }
+      }
+    },
+    "Head to head" : {
+      "comment" : "Stats section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מאזן הדדי"
+          }
+        }
+      }
+    },
+    "Highest first" : {
+      "comment" : "Ranking direction",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הגבוה ראשון"
+          }
+        }
+      }
+    },
+    "History" : {
+      "comment" : "History title\nTab title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "היסטוריה"
+          }
+        }
+      }
+    },
+    "Hit" : {
+      "comment" : "Baseball pitch outcome",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חבטה"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "comment" : "Baseball side\nDefault home side name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בית"
+          }
+        }
+      }
+    },
+    "How was the batter out?" : {
+      "comment" : "Cricket dismissal title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כיצד הודח החובט?"
+          }
+        }
+      }
+    },
+    "Identity" : {
+      "comment" : "Editor section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "זהות"
+          }
+        }
+      }
+    },
+    "Image" : {
+      "comment" : "Share format",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תמונה"
+          }
+        }
+      }
+    },
+    "Images and game files are shared one match at a time." : {
+      "comment" : "Export error",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תמונות וקובצי משחק משותפים משחק אחד בכל פעם."
+          }
+        }
+      }
+    },
+    "Include play-by-play" : {
+      "comment" : "Share option",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כלול תיאור מהלך המשחק"
+          }
+        }
+      }
+    },
+    "Increment" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תוספת"
+          }
+        }
+      }
+    },
+    "Increment mode" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סוג תוספת"
+          }
+        }
+      }
+    },
+    "Individual sounds" : {
+      "comment" : "Settings section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צלילים בודדים"
+          }
+        }
+      }
+    },
+    "Initials" : {
+      "comment" : "Mark option",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ראשי תיבות"
+          }
+        }
+      }
+    },
+    "INN %lld" : {
+      "comment" : "Cricket board label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחזור %lld"
+          }
+        }
+      }
+    },
+    "Inning" : {
+      "comment" : "Control section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחזור"
+          }
+        }
+      }
+    },
+    "INNING" : {
+      "comment" : "Baseball board label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחזור"
+          }
+        }
+      }
+    },
+    "Innings" : {
+      "comment" : "Control section\nRule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מחזורים"
+          }
+        }
+      }
+    },
+    "Innings each" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחזורים לכל צד"
+          }
+        }
+      }
+    },
+    "Innings ended" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המחזור הסתיים"
+          }
+        }
+      }
+    },
+    "iOS does not let an app start mirroring for you, so this part has to be done from Control Centre." : {
+      "comment" : "Casting explanation",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "‏iOS לא מאפשר לאפליקציה להתחיל שיקוף עבורכם, ולכן את החלק הזה צריך לעשות ממרכז הבקרה."
+          }
+        }
+      }
+    },
+    "Its saved rules could not be read, so it has been moved to History. The play-by-play is still there." : {
+      "comment" : "Resume failure message",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לקרוא את החוקים השמורים שלו, ולכן הוא הועבר להיסטוריה. מהלך המשחק עדיין שם."
+          }
+        }
+      }
+    },
+    "Keep playing" : {
+      "comment" : "Confirmation action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המשך משחק"
+          }
+        }
+      }
+    },
+    "keshikan.net" : {
+      "comment" : "Font author link",
+      "shouldTranslate" : false
+    },
+    "Laps" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקפות"
+          }
+        }
+      }
+    },
+    "LAPS %lld" : {
+      "comment" : "Race timer detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקפות %lld"
+          }
+        }
+      }
+    },
+    "Largest lead" : {
+      "comment" : "Stat",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "היתרון הגדול ביותר"
+          }
+        }
+      }
+    },
+    "Largest lead: %@ by %lld" : {
+      "comment" : "Stat line",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Largest lead: %1$@ by %2$lld"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "היתרון הגדול ביותר: %@ ב-%lld"
+          }
+        }
+      }
+    },
+    "LAST %@" : {
+      "comment" : "Race timer detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אחרונה %@"
+          }
+        }
+      }
+    },
+    "LBW" : {
+      "comment" : "Cricket dismissal",
+      "shouldTranslate" : false
+    },
+    "Lead changes" : {
+      "comment" : "Stat",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חילופי הובלה"
+          }
+        }
+      }
+    },
+    "Lead changes: %lld" : {
+      "comment" : "Stat line",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חילופי הובלה: %lld"
+          }
+        }
+      }
+    },
+    "Leaderboard" : {
+      "comment" : "List format\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "טבלת מובילים"
+          }
+        }
+      }
+    },
+    "LEGS" : {
+      "comment" : "Board sublabel",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לגים"
+          }
+        }
+      }
+    },
+    "Legs per set" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לגים במערכה"
+          }
+        }
+      }
+    },
+    "Library" : {
+      "comment" : "Library title\nTab title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ספרייה"
+          }
+        }
+      }
+    },
+    "Link a saved team in Setup to credit players." : {
+      "comment" : "Empty rail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קשרו קבוצה שמורה בהגדרות כדי לזקוף נקודות לשחקנים."
+          }
+        }
+      }
+    },
+    "Link this side to a saved team in Setup to credit points to players." : {
+      "comment" : "Empty roster description",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קשרו את הצד הזה לקבוצה שמורה בהגדרות כדי לזקוף נקודות לשחקנים."
+          }
+        }
+      }
+    },
+    "Lists & tables" : {
+      "comment" : "Picker section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "רשימות וטבלאות"
+          }
+        }
+      }
+    },
+    "Live" : {
+      "comment" : "Match status badge",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חי"
+          }
+        }
+      }
+    },
+    "LIVE" : {
+      "comment" : "Share card live marker",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חי"
+          }
+        }
+      }
+    },
+    "Live, in progress" : {
+      "comment" : "Text export status",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חי, מתנהל"
+          }
+        }
+      }
+    },
+    "Lock board controls" : {
+      "comment" : "Board toolbar",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נעילת פקדי הלוח"
+          }
+        }
+      }
+    },
+    "Long-press a button to subtract." : {
+      "comment" : "Long press hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לחיצה ארוכה על כפתור מחסירה."
+          }
+        }
+      }
+    },
+    "Long-press a racer on the board to finish them." : {
+      "comment" : "Race setup footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לחיצה ארוכה על מתחרה בלוח מסיימת אותו."
+          }
+        }
+      }
+    },
+    "Longest run" : {
+      "comment" : "Stat",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הרצף הארוך ביותר"
+          }
+        }
+      }
+    },
+    "Longest run: %@ %lld unanswered" : {
+      "comment" : "Stat line",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Longest run: %1$@ %2$lld unanswered"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הרצף הארוך ביותר: %@ %lld ללא מענה"
+          }
+        }
+      }
+    },
+    "Lowest first" : {
+      "comment" : "Ranking direction",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הנמוך ראשון"
+          }
+        }
+      }
+    },
+    "Lowest first suits golf and race times." : {
+      "comment" : "Ranking footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הנמוך ראשון מתאים לגולף ולזמני מרוץ."
+          }
+        }
+      }
+    },
+    "Margin" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פער"
+          }
+        }
+      }
+    },
+    "Mascots" : {
+      "comment" : "Emoji section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קמעות"
+          }
+        }
+      }
+    },
+    "Match" : {
+      "comment" : "Fallback match title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "משחק"
+          }
+        }
+      }
+    },
+    "Match clock" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שעון המשחק"
+          }
+        }
+      }
+    },
+    "Match finished" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המשחק הסתיים"
+          }
+        }
+      }
+    },
+    "Match report" : {
+      "comment" : "Report title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דוח משחק"
+          }
+        }
+      }
+    },
+    "MATCH TIEBREAK" : {
+      "comment" : "Set-match stage",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טיי-ברייק מכריע"
+          }
+        }
+      }
+    },
+    "Match tiebreak in deciding set" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טיי-ברייק מכריע במערכה האחרונה"
+          }
+        }
+      }
+    },
+    "Match tiebreak to" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טיי-ברייק מכריע עד"
+          }
+        }
+      }
+    },
+    "Match title" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כותרת המשחק"
+          }
+        }
+      }
+    },
+    "Matches" : {
+      "comment" : "Batch export filename",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "משחקים"
+          }
+        }
+      }
+    },
+    "Matches played" : {
+      "comment" : "Stat label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "משחקים ששוחקו"
+          }
+        }
+      }
+    },
+    "Matches played now will not be kept. %@" : {
+      "comment" : "Store failure banner detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "משחקים שייערכו עכשיו לא יישמרו. %@"
+          }
+        }
+      }
+    },
+    "Meetings" : {
+      "comment" : "Stat label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מפגשים"
+          }
+        }
+      }
+    },
+    "Minutes" : {
+      "comment" : "Time field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דקות"
+          }
+        }
+      }
+    },
+    "Most played" : {
+      "comment" : "Stat label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הכי נפוץ"
+          }
+        }
+      }
+    },
+    "MOVES %lld · %@" : {
+      "comment" : "Chess clock status — moves played, then the time control",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "MOVES %1$lld · %2$@"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מהלכים %lld · %@"
+          }
+        }
+      }
+    },
+    "Mute sounds" : {
+      "comment" : "Accessibility\nBoard toolbar",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "השתקת צלילים"
+          }
+        }
+      }
+    },
+    "My Games" : {
+      "comment" : "Library section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המשחקים שלי"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "comment" : "Field\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שם"
+          }
+        }
+      }
+    },
+    "NEED %lld OFF %lld" : {
+      "comment" : "Cricket chase",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "NEED %1$lld OFF %2$lld"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דרושים %lld מ-%lld"
+          }
+        }
+      }
+    },
+    "Next down" : {
+      "comment" : "Football control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניסיון הבא"
+          }
+        }
+      }
+    },
+    "Next half-inning" : {
+      "comment" : "Baseball control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חצי מחזור הבא"
+          }
+        }
+      }
+    },
+    "Next quarter" : {
+      "comment" : "Control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רבע הבא"
+          }
+        }
+      }
+    },
+    "Nickname" : {
+      "comment" : "Field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כינוי"
+          }
+        }
+      }
+    },
+    "No credit" : {
+      "comment" : "Attribution escape",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ללא זקיפה"
+          }
+        }
+      }
+    },
+    "No games available" : {
+      "comment" : "Empty catalog title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אין משחקים זמינים"
+          }
+        }
+      }
+    },
+    "No matches yet" : {
+      "comment" : "Empty history title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עדיין אין משחקים"
+          }
+        }
+      }
+    },
+    "No players on this roster yet." : {
+      "comment" : "Empty roster",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אין עדיין שחקנים בסגל הזה."
+          }
+        }
+      }
+    },
+    "No players yet" : {
+      "comment" : "Empty players title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אין עדיין שחקנים"
+          }
+        }
+      }
+    },
+    "No roster" : {
+      "comment" : "Empty roster title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אין סגל"
+          }
+        }
+      }
+    },
+    "No stats yet" : {
+      "comment" : "Empty stats title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עדיין אין נתונים"
+          }
+        }
+      }
+    },
+    "No teams yet" : {
+      "comment" : "Empty teams title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אין עדיין קבוצות"
+          }
+        }
+      }
+    },
+    "None" : {
+      "comment" : "Increment mode\nNo clock increment\nNo hard cap\nNo linked team",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ללא"
+          }
+        }
+      }
+    },
+    "Not available yet" : {
+      "comment" : "Unavailable board",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עדיין לא זמין"
+          }
+        }
+      }
+    },
+    "Notes" : {
+      "comment" : "Field\nPDF section\nReport section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הערות"
+          }
+        }
+      }
+    },
+    "Nothing leaves your device except the file you share. No analytics, no upload, no account." : {
+      "comment" : "Privacy footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שום דבר לא יוצא מהמכשיר שלכם חוץ מהקובץ שאתם משתפים. בלי אנליטיקה, בלי העלאה ובלי חשבון."
+          }
+        }
+      }
+    },
+    "Nothing leaves your device except the files you explicitly share. No analytics, no telemetry, no upload, and no account." : {
+      "comment" : "Privacy statement",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שום דבר לא יוצא מהמכשיר שלכם חוץ מהקבצים שאתם משתפים במפורש. בלי אנליטיקה, בלי טלמטריה, בלי העלאה ובלי חשבון."
+          }
+        }
+      }
+    },
+    "Nothing to show for this filter." : {
+      "comment" : "Empty timeline",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אין מה להציג עבור הסינון הזה."
+          }
+        }
+      }
+    },
+    "ODI" : {
+      "comment" : "Cricket format",
+      "shouldTranslate" : false
+    },
+    "Off" : {
+      "comment" : "Bonus disabled\nSplits off",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "כבוי"
+          }
+        }
+      }
+    },
+    "Off by default, so scoring stays one tap. Turn it on and each score asks who gets the credit — link a side to a saved team above so its roster is there to pick from." : {
+      "comment" : "Attribution footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כבוי כברירת מחדל, כדי שהניקוד יישאר בהקשה אחת. הפעילו, וכל הבקעה תשאל למי לזקוף אותה — קשרו צד לקבוצה שמורה למעלה כדי שהסגל שלה יהיה זמין לבחירה."
+          }
+        }
+      }
+    },
+    "OK" : {
+      "comment" : "Alert button",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אישור"
+          }
+        }
+      }
+    },
+    "Once you finish a match, records and head-to-head history build up here automatically." : {
+      "comment" : "Empty stats description",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אחרי שתסיימו משחק, המאזנים וההיסטוריה ההדדית ייבנו כאן אוטומטית."
+          }
+        }
+      }
+    },
+    "One row per event, for your own analysis." : {
+      "comment" : "Share format detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שורה לכל אירוע, לניתוח שלכם."
+          }
+        }
+      }
+    },
+    "Optional. Both appear on the shared match report." : {
+      "comment" : "Setup footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רשות. שניהם מופיעים בדוח המשחק המשותף."
+          }
+        }
+      }
+    },
+    "Or type any emoji from the keyboard." : {
+      "comment" : "Custom emoji footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "או הקלידו כל אמוג׳י מהמקלדת."
+          }
+        }
+      }
+    },
+    "Or use a cable" : {
+      "comment" : "Casting section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "או השתמשו בכבל"
+          }
+        }
+      }
+    },
+    "OT" : {
+      "comment" : "Football period",
+      "shouldTranslate" : false
+    },
+    "OT%lld" : {
+      "comment" : "Football period",
+      "shouldTranslate" : false
+    },
+    "Out" : {
+      "comment" : "Baseball pitch outcome\nCricket dismissal",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אאוט"
+          }
+        }
+      }
+    },
+    "OUT" : {
+      "comment" : "Baseball board label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אאוט"
+          }
+        }
+      }
+    },
+    "Outs" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אאוטים"
+          }
+        }
+      }
+    },
+    "Outs per half-inning" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אאוטים בחצי מחזור"
+          }
+        }
+      }
+    },
+    "Overs" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אוברים"
+          }
+        }
+      }
+    },
+    "OVERS" : {
+      "comment" : "Cricket board label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אוברים"
+          }
+        }
+      }
+    },
+    "Overs per innings" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אוברים למחזור"
+          }
+        }
+      }
+    },
+    "P'SHIP" : {
+      "comment" : "Cricket partnership",
+      "shouldTranslate" : false
+    },
+    "P%lld" : {
+      "shouldTranslate" : false
+    },
+    "Participants" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "משתתפים"
+          }
+        }
+      }
+    },
+    "Pause" : {
+      "comment" : "Chess clock control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "השהיה"
+          }
+        }
+      }
+    },
+    "PDF" : {
+      "comment" : "Share format",
+      "shouldTranslate" : false
+    },
+    "Period %@" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחצית %@"
+          }
+        }
+      }
+    },
+    "Period +" : {
+      "comment" : "Advance period",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחצית ‎+"
+          }
+        }
+      }
+    },
+    "Period advanced" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מעבר למחצית הבאה"
+          }
+        }
+      }
+    },
+    "Period buzzer" : {
+      "comment" : "Sound name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צפירת סיום מחצית"
+          }
+        }
+      }
+    },
+    "Period label" : {
+      "comment" : "Override dialog title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תווית מחצית"
+          }
+        }
+      }
+    },
+    "Period label changed" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תווית המחצית שונתה"
+          }
+        }
+      }
+    },
+    "Period length" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אורך מחצית"
+          }
+        }
+      }
+    },
+    "Periods" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מחזורים"
+          }
+        }
+      }
+    },
+    "Photo" : {
+      "comment" : "Mark option",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תמונה"
+          }
+        }
+      }
+    },
+    "Pick your Apple TV. Come back here — the board appears on the TV automatically." : {
+      "comment" : "Casting step",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחרו את ה-Apple TV שלכם. חזרו לכאן — הלוח יופיע בטלוויזיה אוטומטית."
+          }
+        }
+      }
+    },
+    "Pitch" : {
+      "comment" : "Control section\nTimeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "זריקה"
+          }
+        }
+      }
+    },
+    "Plain text that reads inline in any message." : {
+      "comment" : "Share format detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טקסט פשוט שנקרא היטב בתוך כל הודעה."
+          }
+        }
+      }
+    },
+    "Play" : {
+      "comment" : "Control section\nSport picker title\nTab title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "משחק"
+          }
+        }
+      }
+    },
+    "Play by play" : {
+      "comment" : "PDF section\nReport section\nText export section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מהלך המשחק"
+          }
+        }
+      }
+    },
+    "Play clock" : {
+      "comment" : "Control\nRule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שעון מהלך"
+          }
+        }
+      }
+    },
+    "PLAY CLOCK" : {
+      "comment" : "Football board label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שעון מהלך"
+          }
+        }
+      }
+    },
+    "Player" : {
+      "comment" : "Editor title\nUnknown player",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחקן"
+          }
+        }
+      }
+    },
+    "Player %lld" : {
+      "comment" : "Anonymised player\nDefault participant name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחקן %lld"
+          }
+        }
+      }
+    },
+    "Player leaders" : {
+      "comment" : "Stats section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחקנים מובילים"
+          }
+        }
+      }
+    },
+    "Players" : {
+      "comment" : "Library section\nRule summary label\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שחקנים"
+          }
+        }
+      }
+    },
+    "Points" : {
+      "comment" : "Rule summary label\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נקודות"
+          }
+        }
+      }
+    },
+    "POINTS" : {
+      "comment" : "Board sublabel",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נקודות"
+          }
+        }
+      }
+    },
+    "Points for a draw" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נקודות על תיקו"
+          }
+        }
+      }
+    },
+    "Points for a loss" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נקודות על הפסד"
+          }
+        }
+      }
+    },
+    "Points for a win" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נקודות על ניצחון"
+          }
+        }
+      }
+    },
+    "Points per set" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נקודות למערכה"
+          }
+        }
+      }
+    },
+    "POSS" : {
+      "comment" : "Possession label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "החזקה"
+          }
+        }
+      }
+    },
+    "Possession" : {
+      "comment" : "Rule summary label\nTimeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חזקה"
+          }
+        }
+      }
+    },
+    "Possession arrow" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חץ החזקה"
+          }
+        }
+      }
+    },
+    "Preview" : {
+      "comment" : "Appearance section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תצוגה מקדימה"
+          }
+        }
+      }
+    },
+    "Pricing" : {
+      "comment" : "About section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תמחור"
+          }
+        }
+      }
+    },
+    "Primary" : {
+      "comment" : "Field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ראשי"
+          }
+        }
+      }
+    },
+    "Print" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הדפסה"
+          }
+        }
+      }
+    },
+    "Privacy" : {
+      "comment" : "About section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פרטיות"
+          }
+        }
+      }
+    },
+    "Q%lld" : {
+      "comment" : "Football period",
+      "shouldTranslate" : false
+    },
+    "QUARTER" : {
+      "comment" : "Bracket round",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רבע"
+          }
+        }
+      }
+    },
+    "Quarter length" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אורך רבע"
+          }
+        }
+      }
+    },
+    "Quarters" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רבעים"
+          }
+        }
+      }
+    },
+    "R%lld" : {
+      "shouldTranslate" : false
+    },
+    "Race" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מרוץ"
+          }
+        }
+      }
+    },
+    "RACE" : {
+      "comment" : "Race timer label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מרוץ"
+          }
+        }
+      }
+    },
+    "Racer %lld" : {
+      "comment" : "Default racer name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מתחרה %lld"
+          }
+        }
+      }
+    },
+    "Racers" : {
+      "comment" : "Rule summary label\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מתחרים"
+          }
+        }
+      }
+    },
+    "Racers still on the course keep the laps they have recorded, and are placed behind everyone who finished." : {
+      "comment" : "End race explanation",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מתחרים שעדיין במסלול שומרים על ההקפות שרשמו, וממוקמים אחרי כל מי שסיים."
+          }
+        }
+      }
+    },
+    "Ranking" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דירוג"
+          }
+        }
+      }
+    },
+    "Ready" : {
+      "comment" : "Idle external display",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מוכן"
+          }
+        }
+      }
+    },
+    "Recent" : {
+      "comment" : "Picker section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אחרונים"
+          }
+        }
+      }
+    },
+    "Recorded" : {
+      "comment" : "Splits recorded",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נרשם"
+          }
+        }
+      }
+    },
+    "Records a lap. Long press to finish." : {
+      "comment" : "Accessibility hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רושם הקפה. לחיצה ארוכה לסיום."
+          }
+        }
+      }
+    },
+    "Redo" : {
+      "comment" : "Control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ביצוע חוזר"
+          }
+        }
+      }
+    },
+    "Regulation is complete — end the game when play stops." : {
+      "comment" : "Baseball hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הזמן החוקי הסתיים — סיימו את המשחק כשהמשחק נעצר."
+          }
+        }
+      }
+    },
+    "Remove from favourites" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הסר ממועדפים"
+          }
+        }
+      }
+    },
+    "Remove mark" : {
+      "comment" : "Identity action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הסרת סימן"
+          }
+        }
+      }
+    },
+    "Removed player" : {
+      "comment" : "Missing roster player",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחקן שהוסר"
+          }
+        }
+      }
+    },
+    "Replaces names with initials and removes photos and crests. Emoji is the safest mark for anything shared publicly." : {
+      "comment" : "Anonymise footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מחליף שמות בראשי תיבות ומסיר תמונות וסמלים. אמוג׳י הוא הסימן הבטוח ביותר לכל דבר שמשותף בפומבי."
+          }
+        }
+      }
+    },
+    "REQ" : {
+      "comment" : "Cricket required rate",
+      "shouldTranslate" : false
+    },
+    "Reset 25" : {
+      "comment" : "Football control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "איפוס ל-25"
+          }
+        }
+      }
+    },
+    "Reset 40" : {
+      "comment" : "Football control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "איפוס ל-40"
+          }
+        }
+      }
+    },
+    "Restore" : {
+      "comment" : "Swipe action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחזור"
+          }
+        }
+      }
+    },
+    "Resume" : {
+      "comment" : "Chess clock control\nRace control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המשך"
+          }
+        }
+      }
+    },
+    "Resume match" : {
+      "comment" : "Resume section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המשך משחק"
+          }
+        }
+      }
+    },
+    "Roster" : {
+      "comment" : "Editor section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סגל"
+          }
+        }
+      }
+    },
+    "ROUND %lld" : {
+      "comment" : "Bracket round",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיבוב %lld"
+          }
+        }
+      }
+    },
+    "Round %lld of %lld" : {
+      "comment" : "Score sheet round",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Round %1$lld of %2$lld"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיבוב %lld מתוך %lld"
+          }
+        }
+      }
+    },
+    "Rounds" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סיבובים"
+          }
+        }
+      }
+    },
+    "RR" : {
+      "comment" : "Cricket run rate",
+      "shouldTranslate" : false
+    },
+    "Rules" : {
+      "comment" : "Detail section\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חוקים"
+          }
+        }
+      }
+    },
+    "Rules vary by league — check yours. Every value here is editable in Setup." : {
+      "comment" : "Rules disclaimer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "החוקים משתנים בין ליגות — בדקו את שלכם. כל ערך כאן ניתן לעריכה בהגדרות."
+          }
+        }
+      }
+    },
+    "Rules vary by league — check yours. Everything here is editable and is saved with this match." : {
+      "comment" : "Rules disclaimer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "החוקים משתנים בין ליגות — בדקו את שלכם. הכול כאן ניתן לעריכה ונשמר יחד עם המשחק הזה."
+          }
+        }
+      }
+    },
+    "Run" : {
+      "comment" : "Baseball pitch outcome",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ריצה"
+          }
+        }
+      }
+    },
+    "Run out" : {
+      "comment" : "Cricket dismissal",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הורץ החוצה"
+          }
+        }
+      }
+    },
+    "Runners" : {
+      "comment" : "Control section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רצים"
+          }
+        }
+      }
+    },
+    "Runners set" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הרצים נקבעו"
+          }
+        }
+      }
+    },
+    "Runs off the ball" : {
+      "comment" : "Control section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ריצות מהכדור"
+          }
+        }
+      }
+    },
+    "Save a team once with its colours and crest, then pick it in Setup instead of typing names every match." : {
+      "comment" : "Empty teams description",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שמרו קבוצה פעם אחת עם הצבעים והסמל שלה, ואז בחרו אותה בהגדרות במקום להקליד שמות בכל משחק."
+          }
+        }
+      }
+    },
+    "Saved data is unavailable" : {
+      "comment" : "Store failure banner title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הנתונים השמורים אינם זמינים"
+          }
+        }
+      }
+    },
+    "Saved players and teams are what a scoreboard website can't give you — they keep their identity and build up stats across every match." : {
+      "comment" : "Library footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחקנים וקבוצות שמורים הם מה שאתר לוח תוצאות לא יכול לתת לכם — הם שומרים על הזהות שלהם וצוברים נתונים לאורך כל המשחקים."
+          }
+        }
+      }
+    },
+    "Saved team" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קבוצה שמורה"
+          }
+        }
+      }
+    },
+    "Saved to My Games" : {
+      "comment" : "Duplicate confirmation title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נשמר במשחקים שלי"
+          }
+        }
+      }
+    },
+    "Score" : {
+      "comment" : "Accessibility\nControl section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניקוד"
+          }
+        }
+      }
+    },
+    "Score buttons" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "כפתורי ניקוד"
+          }
+        }
+      }
+    },
+    "Score sheet" : {
+      "comment" : "List format\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "דף ניקוד"
+          }
+        }
+      }
+    },
+    "ScoreDock" : {
+      "comment" : "Watermark",
+      "shouldTranslate" : false
+    },
+    "ScoreDock records the clock, not the result — a game that ends without a flag is saved with no winner." : {
+      "comment" : "Chess clock end explanation",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "‏ScoreDock מתעד את השעון, לא את התוצאה — משחק שמסתיים בלי שנגמר הזמן נשמר ללא מנצח."
+          }
+        }
+      }
+    },
+    "Scored with ScoreDock" : {
+      "comment" : "Text export watermark",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נוהל ב-ScoreDock"
+          }
+        }
+      }
+    },
+    "Scorers" : {
+      "comment" : "Report section\nText export section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מבקיעים"
+          }
+        }
+      }
+    },
+    "Scores only" : {
+      "comment" : "Timeline filter",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניקוד בלבד"
+          }
+        }
+      }
+    },
+    "Scoring" : {
+      "comment" : "Rule summary label\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שיטת ניקוד"
+          }
+        }
+      }
+    },
+    "Scoring plays" : {
+      "comment" : "Stat",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מהלכי הבקעה"
+          }
+        }
+      }
+    },
+    "Screen-on scoring with a TV attached drains fast. Plug in before the second half." : {
+      "comment" : "Low battery detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניהול ניקוד עם מסך דולק וטלוויזיה מחוברת מרוקן מהר. חברו לחשמל לפני המחצית השנייה."
+          }
+        }
+      }
+    },
+    "Search games" : {
+      "comment" : "Search field prompt",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חיפוש משחקים"
+          }
+        }
+      }
+    },
+    "Search matches" : {
+      "comment" : "Search prompt",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חיפוש משחקים"
+          }
+        }
+      }
+    },
+    "Search players" : {
+      "comment" : "Search prompt",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חיפוש שחקנים"
+          }
+        }
+      }
+    },
+    "Search teams" : {
+      "comment" : "Search prompt",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חיפוש קבוצות"
+          }
+        }
+      }
+    },
+    "Second" : {
+      "comment" : "Head to head picker",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שני"
+          }
+        }
+      }
+    },
+    "Secondary" : {
+      "comment" : "Field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "משני"
+          }
+        }
+      }
+    },
+    "Seconds" : {
+      "comment" : "Time field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שניות"
+          }
+        }
+      }
+    },
+    "Seconds added" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שניות שנוספות"
+          }
+        }
+      }
+    },
+    "Seed %lld" : {
+      "comment" : "Bracket preview name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מדורג %lld"
+          }
+        }
+      }
+    },
+    "Seeds" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מדורגים"
+          }
+        }
+      }
+    },
+    "Select" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחירה"
+          }
+        }
+      }
+    },
+    "SEMI" : {
+      "comment" : "Bracket round",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חצי גמר"
+          }
+        }
+      }
+    },
+    "Serve" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הגשה"
+          }
+        }
+      }
+    },
+    "Serve changes" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חילופי הגשה"
+          }
+        }
+      }
+    },
+    "Serves each" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הגשות לכל צד"
+          }
+        }
+      }
+    },
+    "Serving side" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצד המגיש"
+          }
+        }
+      }
+    },
+    "Set" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קביעה"
+          }
+        }
+      }
+    },
+    "SET %lld" : {
+      "comment" : "Set-match stage",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מערכה %lld"
+          }
+        }
+      }
+    },
+    "Set this to 1 and the winner of each rally serves. Set it higher and serve alternates every that many points, as in table tennis." : {
+      "comment" : "Serve footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קבעו 1 והמנצח בכל חילופי המכות מגיש. קבעו יותר וההגשה מתחלפת כל אותו מספר נקודות, כמו בטניס שולחן."
+          }
+        }
+      }
+    },
+    "Set time" : {
+      "comment" : "Chess clock control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כוונון זמן"
+          }
+        }
+      }
+    },
+    "Set time left" : {
+      "comment" : "Sheet title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כוונון הזמן שנותר"
+          }
+        }
+      }
+    },
+    "Set up" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הגדרה"
+          }
+        }
+      }
+    },
+    "Set up match" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הגדרת משחק"
+          }
+        }
+      }
+    },
+    "SETS" : {
+      "comment" : "Set history label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מערכות"
+          }
+        }
+      }
+    },
+    "Sets & matches" : {
+      "comment" : "Picker section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מערכות ומשחקים"
+          }
+        }
+      }
+    },
+    "Sets the time left on the clock that is currently running. Recorded in the game log like any other change." : {
+      "comment" : "Set time footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קובע את הזמן שנותר בשעון שפועל כרגע. נרשם ביומן המשחק ככל שינוי אחר."
+          }
+        }
+      }
+    },
+    "Sets to win" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מערכות לניצחון"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "comment" : "Settings title\nTab title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הגדרות"
+          }
+        }
+      }
+    },
+    "Seven-segment display font: DSEG by keshikan, SIL Open Font License 1.1." : {
+      "comment" : "Font attribution",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גופן תצוגת שבעה מקטעים: DSEG מאת keshikan, ברישיון SIL Open Font License 1.1."
+          }
+        }
+      }
+    },
+    "Shape" : {
+      "comment" : "Share picker",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צורה"
+          }
+        }
+      }
+    },
+    "Share" : {
+      "comment" : "Action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שיתוף"
+          }
+        }
+      }
+    },
+    "Share as" : {
+      "comment" : "Share section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שיתוף בתור"
+          }
+        }
+      }
+    },
+    "Share match" : {
+      "comment" : "Share sheet title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שיתוף משחק"
+          }
+        }
+      }
+    },
+    "Sharing" : {
+      "comment" : "Settings section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שיתוף"
+          }
+        }
+      }
+    },
+    "Shifts the board by a couple of points every 90 seconds. Imperceptible while watching, and it protects OLED phone and TV panels during a long match." : {
+      "comment" : "Burn-in footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מזיז את הלוח בכמה נקודות כל 90 שניות. בלתי מורגש בצפייה, ומגן על מסכי OLED של טלפונים וטלוויזיות במשחק ארוך."
+          }
+        }
+      }
+    },
+    "Short name" : {
+      "comment" : "Field\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שם מקוצר"
+          }
+        }
+      }
+    },
+    "Short play clock" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שעון מהלך מקוצר"
+          }
+        }
+      }
+    },
+    "Short reset" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "איפוס קצר"
+          }
+        }
+      }
+    },
+    "Shot clock" : {
+      "comment" : "Accessibility\nRule summary label\nSetup field\nTimeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שעון זריקה"
+          }
+        }
+      }
+    },
+    "SHOT CLOCK" : {
+      "comment" : "External board caption",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שעון זריקה"
+          }
+        }
+      }
+    },
+    "Shot clock & possession" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שעון זריקה והחזקה"
+          }
+        }
+      }
+    },
+    "Shot clock horn" : {
+      "comment" : "Sound name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צופר שעון הזריקה"
+          }
+        }
+      }
+    },
+    "Shot clock only" : {
+      "comment" : "Board mode",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שעון זריקה בלבד"
+          }
+        }
+      }
+    },
+    "Shot clock reset" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "איפוס שעון זריקה"
+          }
+        }
+      }
+    },
+    "Shot clock warning" : {
+      "comment" : "Sound name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התראת שעון זריקה"
+          }
+        }
+      }
+    },
+    "Show" : {
+      "comment" : "Preferred mark picker\nTimeline filter",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצגה"
+          }
+        }
+      }
+    },
+    "Show archived" : {
+      "comment" : "Players filter\nTeams filter",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצגת פריטי ארכיון"
+          }
+        }
+      }
+    },
+    "Show hits and errors" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצגת חבטות ושגיאות"
+          }
+        }
+      }
+    },
+    "Show required rate" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצגת קצב נדרש"
+          }
+        }
+      }
+    },
+    "Show run rate" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצגת קצב ריצות"
+          }
+        }
+      }
+    },
+    "Show tenths near the end" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצגת עשיריות לקראת הסיום"
+          }
+        }
+      }
+    },
+    "Side emoji" : {
+      "comment" : "Accessibility",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אמוג׳י של הצד"
+          }
+        }
+      }
+    },
+    "Side name" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שם הצד"
+          }
+        }
+      }
+    },
+    "Sides" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צדדים"
+          }
+        }
+      }
+    },
+    "Sound" : {
+      "comment" : "Settings row",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צליל"
+          }
+        }
+      }
+    },
+    "Sources" : {
+      "comment" : "Detail section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מקורות"
+          }
+        }
+      }
+    },
+    "Specialised" : {
+      "comment" : "Picker section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מיוחדים"
+          }
+        }
+      }
+    },
+    "Splits" : {
+      "comment" : "Rule summary label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "זמני ביניים"
+          }
+        }
+      }
+    },
+    "Sports" : {
+      "comment" : "Emoji section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ענפי ספורט"
+          }
+        }
+      }
+    },
+    "Square-ish (4:5)" : {
+      "comment" : "Share card aspect",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כמעט ריבועי (4:5)"
+          }
+        }
+      }
+    },
+    "Standings" : {
+      "comment" : "List format",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "טבלת ליגה"
+          }
+        }
+      }
+    },
+    "Start" : {
+      "comment" : "Chess clock control\nClock button\nControl\nSetup action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התחלה"
+          }
+        }
+      }
+    },
+    "Start a match on your device" : {
+      "comment" : "Idle external display detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התחילו משחק במכשיר"
+          }
+        }
+      }
+    },
+    "Start match" : {
+      "comment" : "Setup action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התחלת משחק"
+          }
+        }
+      }
+    },
+    "Start race" : {
+      "comment" : "Race control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התחלת מרוץ"
+          }
+        }
+      }
+    },
+    "Start score" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניקוד פתיחה"
+          }
+        }
+      }
+    },
+    "Stats" : {
+      "comment" : "Stats title\nTab title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נתונים"
+          }
+        }
+      }
+    },
+    "Step" : {
+      "comment" : "Score increment picker",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צעד"
+          }
+        }
+      }
+    },
+    "Stop" : {
+      "comment" : "Clock button\nControl\nRace control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עצירה"
+          }
+        }
+      }
+    },
+    "Straight out" : {
+      "comment" : "Darts finish rule",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיום ישיר"
+          }
+        }
+      }
+    },
+    "Strike" : {
+      "comment" : "Baseball pitch outcome",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סטרייק"
+          }
+        }
+      }
+    },
+    "Strikes per out" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סטרייקים לאאוט"
+          }
+        }
+      }
+    },
+    "Stumped" : {
+      "comment" : "Cricket dismissal",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הודח"
+          }
+        }
+      }
+    },
+    "Summary" : {
+      "comment" : "PDF section\nReport section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סיכום"
+          }
+        }
+      }
+    },
+    "Swipe down from the top-right corner to open Control Centre." : {
+      "comment" : "Casting step",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "החליקו מטה מהפינה הימנית העליונה כדי לפתוח את מרכז הבקרה."
+          }
+        }
+      }
+    },
+    "Swipe to remove. Two is the minimum." : {
+      "comment" : "Participants footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "החליקו כדי להסיר. שניים הם המינימום."
+          }
+        }
+      }
+    },
+    "Symbols" : {
+      "comment" : "Emoji section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סמלים"
+          }
+        }
+      }
+    },
+    "T%lld" : {
+      "comment" : "Baseball inning",
+      "shouldTranslate" : false
+    },
+    "T20" : {
+      "comment" : "Cricket format",
+      "shouldTranslate" : false
+    },
+    "Tap a name in the bracket to advance them. Byes advance on their own, and changing an earlier result clears the rounds after it." : {
+      "comment" : "Bracket hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקישו על שם בבית כדי להעלות אותו. עליות אוטומטיות מתקדמות מעצמן, ושינוי תוצאה מוקדמת מנקה את הסיבובים שאחריה."
+          }
+        }
+      }
+    },
+    "Tap a name to hear it. The timer warning is off by default — an unexpected beep in a quiet hall is worse than none." : {
+      "comment" : "Individual sounds footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקישו על שם כדי לשמוע אותו. התראת הטיימר כבויה כברירת מחדל — צפצוף לא צפוי באולם שקט גרוע יותר מכלום."
+          }
+        }
+      }
+    },
+    "Tap a racer to record a lap. Long-press to finish them." : {
+      "comment" : "Race hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקישו על מתחרה כדי לרשום הקפה. לחיצה ארוכה מסיימת אותו."
+          }
+        }
+      }
+    },
+    "Tap Screen Mirroring." : {
+      "comment" : "Casting step",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקישו על שיקוף מסך."
+          }
+        }
+      }
+    },
+    "TAP TO START · %@" : {
+      "comment" : "Chess clock hint",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקישו להתחלה · %@"
+          }
+        }
+      }
+    },
+    "Team" : {
+      "comment" : "Editor title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קבוצה"
+          }
+        }
+      }
+    },
+    "Team %lld" : {
+      "comment" : "Anonymised side\nDefault participant name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קבוצה %lld"
+          }
+        }
+      }
+    },
+    "Team and player names" : {
+      "comment" : "Share contents",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שמות קבוצות ושחקנים"
+          }
+        }
+      }
+    },
+    "Team records" : {
+      "comment" : "Stats section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מאזני קבוצות"
+          }
+        }
+      }
+    },
+    "Team scoreboards" : {
+      "comment" : "Picker section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לוחות קבוצתיים"
+          }
+        }
+      }
+    },
+    "Teams" : {
+      "comment" : "Editor section\nLibrary section\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "קבוצות"
+          }
+        }
+      }
+    },
+    "Test" : {
+      "comment" : "Cricket format",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מבחן"
+          }
+        }
+      }
+    },
+    "Text" : {
+      "comment" : "Share format",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טקסט"
+          }
+        }
+      }
+    },
+    "That export could not be created." : {
+      "comment" : "Export error",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה ליצור את הייצוא."
+          }
+        }
+      }
+    },
+    "That game file contains an image that could not be used, so it was not opened." : {
+      "comment" : "Import error",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קובץ המשחק מכיל תמונה שלא ניתן היה להשתמש בה, ולכן הוא לא נפתח."
+          }
+        }
+      }
+    },
+    "That game file could not be read." : {
+      "comment" : "Import error",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לקרוא את קובץ המשחק."
+          }
+        }
+      }
+    },
+    "That game file is too large to open." : {
+      "comment" : "Import error",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קובץ המשחק גדול מדי לפתיחה."
+          }
+        }
+      }
+    },
+    "That game file was made by a newer version of the app (format %lld)." : {
+      "comment" : "Import error",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קובץ המשחק נוצר בגרסה חדשה יותר של האפליקציה (פורמט %lld)."
+          }
+        }
+      }
+    },
+    "That image could not be read." : {
+      "comment" : "Image import error",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לקרוא את התמונה."
+          }
+        }
+      }
+    },
+    "That image is too large to use." : {
+      "comment" : "Image import error",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התמונה גדולה מדי לשימוש."
+          }
+        }
+      }
+    },
+    "That match can't be reopened" : {
+      "comment" : "Resume failure title",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן לפתוח מחדש את המשחק"
+          }
+        }
+      }
+    },
+    "The board font applies to numbers only. Team names and labels always use the app's text face, because the seven-segment face has no Hebrew and renders letters as approximations." : {
+      "comment" : "Board font footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גופן הלוח חל על מספרים בלבד. שמות קבוצות ותוויות משתמשים תמיד בגופן הטקסט של האפליקציה, מפני שגופן שבעת המקטעים חסר עברית ומציג אותיות כקירוב בלבד."
+          }
+        }
+      }
+    },
+    "The board is on your TV. Your controls stay here." : {
+      "comment" : "Casting connected detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הלוח מוצג בטלוויזיה. הפקדים נשארים כאן."
+          }
+        }
+      }
+    },
+    "The built-in game catalog could not be loaded. Reinstalling the app should restore it." : {
+      "comment" : "Empty catalog description",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לטעון את קטלוג המשחקים המובנה. התקנה מחדש של האפליקציה אמורה לשחזר אותו."
+          }
+        }
+      }
+    },
+    "The end-of-period buzzer sounds even when your phone is on silent, and it won't stop the venue's music." : {
+      "comment" : "Audio settings footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "צפירת סיום המחצית נשמעת גם כשהטלפון במצב שקט, והיא לא תעצור את המוזיקה באולם."
+          }
+        }
+      }
+    },
+    "The full formatted report, for leagues and printing." : {
+      "comment" : "Share format detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הדוח המלא והמעוצב, לליגות ולהדפסה."
+          }
+        }
+      }
+    },
+    "The full play-by-play is already saved either way." : {
+      "comment" : "Confirmation message",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מהלך המשחק המלא נשמר ממילא בכל מקרה."
+          }
+        }
+      }
+    },
+    "The nickname is what shows on the board — it is shorter, and it is what the crowd shouts." : {
+      "comment" : "Nickname footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הכינוי הוא מה שמוצג על הלוח — הוא קצר יותר, וזה מה שהקהל קורא."
+          }
+        }
+      }
+    },
+    "The remaining overs are not bowled." : {
+      "comment" : "Declaration explanation",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "האוברים שנותרו לא ייזרקו."
+          }
+        }
+      }
+    },
+    "The visitors bat the top of each inning; the home side bats the bottom." : {
+      "comment" : "Baseball teams footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "האורחים חובטים בחלק העליון של כל מחזור; הקבוצה הביתית חובטת בחלק התחתון."
+          }
+        }
+      }
+    },
+    "The whole match. A friend with the app gets the full report." : {
+      "comment" : "Share format detail",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המשחק כולו. חבר שיש לו את האפליקציה מקבל את הדוח המלא."
+          }
+        }
+      }
+    },
+    "Theme" : {
+      "comment" : "Appearance section\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ערכת נושא"
+          }
+        }
+      }
+    },
+    "These two have not met yet." : {
+      "comment" : "Head to head empty",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "השניים האלה עוד לא נפגשו."
+          }
+        }
+      }
+    },
+    "These values are plausible defaults that have not yet been checked against the governing body's published rules." : {
+      "comment" : "Unverified rules footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אלה ברירות מחדל סבירות שטרם נבדקו מול החוקים המפורסמים של הגוף המנהל."
+          }
+        }
+      }
+    },
+    "This board is coming in a later update." : {
+      "comment" : "Unavailable board",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הלוח הזה יגיע בעדכון עתידי."
+          }
+        }
+      }
+    },
+    "This board is not available in this version of ScoreDock." : {
+      "comment" : "Engine not yet available\nUnavailable board",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הלוח הזה אינו זמין בגרסה הזו של ScoreDock."
+          }
+        }
+      }
+    },
+    "This match is still running. Its clock kept correct time while you were away." : {
+      "comment" : "Resume footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המשחק הזה עדיין מתנהל. השעון שלו שמר על הזמן הנכון בזמן שלא הייתם כאן."
+          }
+        }
+      }
+    },
+    "Three for a win is the association-football convention, not a rule — check your league." : {
+      "comment" : "Standings points footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שלוש נקודות על ניצחון הן המקובל בכדורגל, לא חוק — בדקו את הליגה שלכם."
+          }
+        }
+      }
+    },
+    "Tiebreak" : {
+      "comment" : "Rule summary label\nSetup field\nSetup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "טאי־ברייק"
+          }
+        }
+      }
+    },
+    "TIEBREAK" : {
+      "comment" : "Set-match stage",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טיי-ברייק"
+          }
+        }
+      }
+    },
+    "Tiebreak to" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טיי-ברייק עד"
+          }
+        }
+      }
+    },
+    "Ties share a rank" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תיקו חולק מקום"
+          }
+        }
+      }
+    },
+    "Time control" : {
+      "comment" : "Setup section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בקרת זמן"
+          }
+        }
+      }
+    },
+    "Timeout" : {
+      "comment" : "Use a timeout",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פסק זמן"
+          }
+        }
+      }
+    },
+    "Timeouts" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פסקי זמן"
+          }
+        }
+      }
+    },
+    "Timeouts per half" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פסקי זמן לכל מחצית"
+          }
+        }
+      }
+    },
+    "Timeouts reset at half" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "איפוס פסקי זמן במחצית"
+          }
+        }
+      }
+    },
+    "Timer only" : {
+      "comment" : "Board mode",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טיימר בלבד"
+          }
+        }
+      }
+    },
+    "Timer warning" : {
+      "comment" : "Sound name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התראת טיימר"
+          }
+        }
+      }
+    },
+    "Timestamped play-by-play" : {
+      "comment" : "Share contents",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מהלך משחק עם חותמות זמן"
+          }
+        }
+      }
+    },
+    "Title" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כותרת"
+          }
+        }
+      }
+    },
+    "to %lld" : {
+      "comment" : "Tiebreak target",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עד %lld"
+          }
+        }
+      }
+    },
+    "To go" : {
+      "comment" : "Football control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נותרו"
+          }
+        }
+      }
+    },
+    "Total" : {
+      "comment" : "Period table total",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סך הכול"
+          }
+        }
+      }
+    },
+    "Totals are always the sum of the rounds, so the two can never drift apart." : {
+      "comment" : "Score sheet footer",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הסכומים תמיד שווים לסכום הסיבובים, כך שהשניים לעולם לא יתפצלו."
+          }
+        }
+      }
+    },
+    "Track fouls" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מעקב עבירות"
+          }
+        }
+      }
+    },
+    "Track serve" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מעקב הגשה"
+          }
+        }
+      }
+    },
+    "Turn on a Focus before you start, so notifications don't appear on the TV." : {
+      "comment" : "Casting focus advice",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הפעילו מצב פוקוס לפני שאתם מתחילים, כדי שהתראות לא יופיעו בטלוויזיה."
+          }
+        }
+      }
+    },
+    "TV shows" : {
+      "comment" : "Board mode picker",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בטלוויזיה מוצג"
+          }
+        }
+      }
+    },
+    "Undo" : {
+      "comment" : "Control\nControl panel button\nTimeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ביטול פעולה"
+          }
+        }
+      }
+    },
+    "Unfavourite" : {
+      "comment" : "Swipe action",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הסר ממועדפים"
+          }
+        }
+      }
+    },
+    "Unlock board controls" : {
+      "comment" : "Board toolbar",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחרור פקדי הלוח"
+          }
+        }
+      }
+    },
+    "Unmute sounds" : {
+      "comment" : "Accessibility\nBoard toolbar",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ביטול השתקה"
+          }
+        }
+      }
+    },
+    "Unnamed player" : {
+      "comment" : "Placeholder name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שחקן ללא שם"
+          }
+        }
+      }
+    },
+    "Unnamed team" : {
+      "comment" : "Placeholder name",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קבוצה ללא שם"
+          }
+        }
+      }
+    },
+    "Use default" : {
+      "comment" : "Clear label override",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שימוש בברירת המחדל"
+          }
+        }
+      }
+    },
+    "Venue" : {
+      "comment" : "Setup field\nShare contents",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מקום"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "comment" : "About row",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "גרסה"
+          }
+        }
+      }
+    },
+    "Visit score" : {
+      "comment" : "Darts entry field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ניקוד הסבב"
+          }
+        }
+      }
+    },
+    "Visitors" : {
+      "comment" : "Baseball side",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אורחים"
+          }
+        }
+      }
+    },
+    "What's included" : {
+      "comment" : "Share section",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מה כלול"
+          }
+        }
+      }
+    },
+    "White" : {
+      "comment" : "Chess side",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לבן"
+          }
+        }
+      }
+    },
+    "Wicket" : {
+      "comment" : "Cricket control",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שער"
+          }
+        }
+      }
+    },
+    "Wicket — %@" : {
+      "comment" : "Timeline event",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שער — %@"
+          }
+        }
+      }
+    },
+    "Wickets" : {
+      "comment" : "Rule summary label\nSetup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שערים"
+          }
+        }
+      }
+    },
+    "Wide (16:9)" : {
+      "comment" : "Share card aspect",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רחב (16:9)"
+          }
+        }
+      }
+    },
+    "Win by two" : {
+      "comment" : "Setup field\nWin margin rule",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ניצחון בהפרש שתיים"
+          }
+        }
+      }
+    },
+    "WINNER" : {
+      "comment" : "Bracket champion label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מנצח"
+          }
+        }
+      }
+    },
+    "Yards to convert" : {
+      "comment" : "Setup field",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "יארדים להמרה"
+          }
+        }
+      }
+    },
+    "Your device is running hot, so the board is updating once a second instead of ten. Tenths of a second are hidden until it cools." : {
+      "comment" : "Thermal warning",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המכשיר מתחמם, ולכן הלוח מתעדכן פעם בשנייה במקום עשר. עשיריות השנייה מוסתרות עד שיתקרר."
+          }
+        }
+      }
+    },
+    "Your device is too hot and is limiting performance. Unplug from direct sun, or take it out of a case." : {
+      "comment" : "Thermal warning",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המכשיר חם מדי ומגביל ביצועים. הוציאו אותו משמש ישירה, או הסירו את הכיסוי."
+          }
+        }
+      }
+    },
+    "Your game" : {
+      "comment" : "Accessibility label",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המשחק שלך"
+          }
+        }
+      }
+    },
+    "Zoom in" : {
+      "comment" : "Board toolbar",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התקרבות"
+          }
+        }
+      }
+    },
+    "Zoom out" : {
+      "comment" : "Board toolbar",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התרחקות"
+          }
+        }
+      }
+    },
+    "Σ" : {
+      "comment" : "Score sheet total column",
+      "shouldTranslate" : false
+    }
+  },
+  "version" : "1.0"
+}
