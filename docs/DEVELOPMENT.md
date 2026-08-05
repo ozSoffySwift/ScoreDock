@@ -2,13 +2,12 @@
 
 Native iOS/iPadOS scoreboard app. Implementation of the ScoreDock product specification v1.0.
 
-**Milestone status: M0, M1 and M3–M8 complete. M2 is built, but its exit criterion needs hardware**
-— see "M2" below and §5.5.
+**Milestone status: M0–M8 complete.** M2's exit criterion was confirmed on physical hardware on
+5 August 2026 — see "M2" below.
 
-Every milestone the spec defines is done except M2's sign-off, which cannot be given from a
-simulator. What remains before submission is content that needs human authority — a referee for the
-rule defaults, a native speaker for the Hebrew, a trademark check on the name. All of it is listed
-and counted below.
+Every milestone the spec defines is now done. What remains before submission is content that needs
+human authority — a referee for the rule defaults, a native speaker for the Hebrew, a trademark
+check on the name. All of it is listed and counted below.
 
 §18 recommends shipping at M3, and the app now does what that milestone asks: *"runs a great game,
 logs it, and lets you share it."*
@@ -155,10 +154,14 @@ idx kind             val slot per matchClock  wall-clock
 
 > *"Board runs on an Apple TV while the panel stays live on the phone."*
 
-**This exit criterion is NOT signed off, and cannot be from here.** §5.5 states plainly that the iOS
+**Signed off on physical hardware, 5 August 2026.** The board runs on the external display while
+the control panel stays live on the phone, confirmed by the author on a real device.
+
+This could not be verified from the development environment: §5.5 states plainly that the iOS
 Simulator does not faithfully reproduce external-display scene-role behaviour or AirPlay latency,
-and `simctl` has no external-display command. Everything below is built and unit-tested; the
-end-to-end confirmation needs an iPhone, an iPad, an Apple TV and a USB-C-to-HDMI adapter.
+and `simctl` has no external-display command. Everything below was built and unit-tested first; the
+"Verified how" column records the state *before* hardware confirmation, and is kept as written
+because it is an accurate account of what automated testing could and could not reach.
 
 | Built | Where | Verified how |
 |---|---|---|
