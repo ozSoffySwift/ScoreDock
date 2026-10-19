@@ -27,6 +27,7 @@ final class AppSettings {
         static let hapticsEnabled = "haptics.enabled"
         static let burnInProtection = "board.burnInProtection"
         static let shareWatermark = "share.watermark"
+        static let analyticsEnabled = "privacy.analytics"
     }
 
     private let defaults: UserDefaults
@@ -46,6 +47,9 @@ final class AppSettings {
             Key.hapticsEnabled: true,
             Key.burnInProtection: true,
             Key.shareWatermark: true,
+            // On by default and disclosed in Settings and PRIVACY.md. Defaulting it off would
+            // make the numbers meaningless, and the collection is anonymous and non-tracking.
+            Key.analyticsEnabled: true,
         ])
         themeID = defaults.string(forKey: Key.themeID) ?? BuiltInThemes.defaultID
         boardFont = BoardFont(rawValue: defaults.string(forKey: Key.boardFont) ?? "") ?? .default
@@ -58,6 +62,7 @@ final class AppSettings {
         hapticsEnabled = defaults.bool(forKey: Key.hapticsEnabled)
         burnInProtection = defaults.bool(forKey: Key.burnInProtection)
         shareWatermark = defaults.bool(forKey: Key.shareWatermark)
+        analyticsEnabled = defaults.bool(forKey: Key.analyticsEnabled)
     }
 
     /// Default board theme. Dark, because it holds contrast under gym house lights and keys cleanly
@@ -87,6 +92,21 @@ final class AppSettings {
     /// a watermark the user cannot remove reads as an upsell and undercuts the free-forever
     /// positioning.
     var shareWatermark: Bool { didSet { defaults.set(shareWatermark, forKey: Key.shareWatermark) } }
+
+    /// Anonymous usage analytics (§16).
+    ///
+    /// Turning this off calls through to Firebase immediately rather than waiting for the next
+    /// launch, because a privacy switch that only half-works until you relaunch is worse than none:
+    /// the user believes they have opted out while events are still being recorded.
+    ///
+    /// `AnalyticsConsent` owns the Firebase call so that this type stays free of SDK imports and
+    /// remains testable without a configured `FirebaseApp`.
+    var analyticsEnabled: Bool {
+        didSet {
+            defaults.set(analyticsEnabled, forKey: Key.analyticsEnabled)
+            AnalyticsConsent.apply(enabled: analyticsEnabled)
+        }
+    }
 
     var theme: ThemeSpec { BuiltInThemes.theme(id: themeID) }
 }

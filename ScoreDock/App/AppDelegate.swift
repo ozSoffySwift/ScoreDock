@@ -49,6 +49,10 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
             return true
         }
         FirebaseApp.configure()
+
+        // Must follow `configure()`: the SDK resets to its own default (collection on) each launch,
+        // so an opted-out user would be silently opted back in on every cold start without this.
+        AnalyticsConsent.applyStoredPreference()
         return true
     }
 

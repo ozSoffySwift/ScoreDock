@@ -91,6 +91,24 @@ struct SettingsView: View {
                     )
                 }
 
+                // Deliberately its own section, directly above About, rather than buried under
+                // Sharing: a disclosure the user has to hunt for is not really a disclosure.
+                Section {
+                    Toggle(isOn: $settings.analyticsEnabled) {
+                        Label(
+                            String(localized: "Share anonymous usage data", comment: "Settings row"),
+                            systemImage: "chart.bar"
+                        )
+                    }
+                } header: {
+                    Text("Privacy", comment: "Settings section")
+                } footer: {
+                    Text(
+                        "Helps decide which sports to improve next: how often the app is opened and which boards are used. Never your scores, team names or players — those stay on this device. No advertising identifier, and no tracking across other apps.",
+                        comment: "Analytics footer"
+                    )
+                }
+
                 Section {
                     NavigationLink {
                         AboutView()

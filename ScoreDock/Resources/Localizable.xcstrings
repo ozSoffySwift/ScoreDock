@@ -2664,6 +2664,18 @@
         }
       }
     },
+    "Helps decide which sports to improve next: how often the app is opened and which boards are used. Never your scores, team names or players — those stay on this device. No advertising identifier, and no tracking across other apps.": {
+      "comment": "Analytics footer",
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "עוזר להחליט אילו ענפי ספורט לשפר בהמשך: באיזו תדירות האפליקציה נפתחת ובאילו לוחות משתמשים. לעולם לא התוצאות, שמות הקבוצות או השחקנים שלכם — אלה נשארים במכשיר הזה. ללא מזהה פרסומי וללא מעקב בין אפליקציות."
+          }
+        }
+      }
+    },
     "Highest first": {
       "comment": "Ranking direction",
       "localizations": {
@@ -5112,6 +5124,18 @@
           "stringUnit": {
             "state": "needs_review",
             "value": "שיתוף"
+          }
+        }
+      }
+    },
+    "Share anonymous usage data": {
+      "comment": "Settings row",
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "שיתוף נתוני שימוש אנונימיים"
           }
         }
       }
