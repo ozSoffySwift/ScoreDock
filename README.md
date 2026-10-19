@@ -11,8 +11,9 @@ costs you the match.
 
 <br clear="left">
 
-Built entirely with Swift, SwiftUI and SwiftData — no third-party dependencies, no
-analytics, no account, no network code of any kind. Every feature is free.
+Built with Swift, SwiftUI and SwiftData. Matches stay on your device, there is no
+account, and the only third-party dependency is Firebase Analytics — anonymous usage
+counts, with no advertising identifier and no cross-app tracking. Every feature is free.
 
 ## Features
 
@@ -43,9 +44,11 @@ analytics, no account, no network code of any kind. Every feature is free.
   watch records build up across every match.
 - **Hebrew and English**, with full right-to-left support — board numerals never mirror,
   chrome and navigation do.
-- **Private by construction.** Nothing leaves the device except a file you explicitly
-  share. No analytics, no telemetry, no account, and the privacy manifest says so — and
-  is tested to keep saying so.
+- **Your matches stay yours.** Match data never leaves the device except in a file you
+  explicitly share, and there is no account. Anonymous usage analytics are collected via
+  Firebase, linked without `FirebaseAnalyticsIdentitySupport` — so no advertising
+  identifier, no tracking, and no App Tracking Transparency prompt. A test fails the build
+  if that ever changes.
 
 ## Screenshots
 

@@ -25,17 +25,84 @@ struct SubmissionTests {
         _ = try Data(contentsOf: url)
     }
 
-    @Test("The manifest declares no tracking and no collected data")
-    func privacyManifestClaimsNothing() throws {
+    /// §16 after analytics landed in 1.0.
+    ///
+    /// This used to assert the app collected *nothing*. Firebase Analytics changed that, so the
+    /// invariant worth defending changed with it: collection is allowed, **tracking is not**. The
+    /// moment `NSPrivacyTracking` flips true the app owes users an App Tracking Transparency prompt
+    /// and the store listing's privacy claims stop being true. Failing here is cheaper than finding
+    /// that out in review.
+    @Test("Analytics is anonymous: data may be collected, but never for tracking")
+    func privacyManifestDeclaresNoTracking() throws {
         let manifest = try privacyManifest()
 
-        #expect(manifest["NSPrivacyTracking"] as? Bool == false)
+        #expect(
+            manifest["NSPrivacyTracking"] as? Bool == false,
+            "tracking would require an ATT prompt and contradict the store listing"
+        )
         #expect((manifest["NSPrivacyTrackingDomains"] as? [String])?.isEmpty == true)
 
-        // §16 is a factual claim, not an aspiration: there is no analytics SDK, no telemetry, no
-        // crash reporter and no network client in the app at all.
-        let collected = manifest["NSPrivacyCollectedDataTypes"] as? [[String: Any]]
-        #expect(collected?.isEmpty == true, "the app collects nothing; the manifest must say so")
+        let collected = manifest["NSPrivacyCollectedDataTypes"] as? [[String: Any]] ?? []
+
+        for entry in collected {
+            let type = entry["NSPrivacyCollectedDataType"] as? String ?? "(unnamed)"
+
+            #expect(
+                entry["NSPrivacyCollectedDataTypeTracking"] as? Bool == false,
+                "\(type) is declared as tracking"
+            )
+            #expect(
+                entry["NSPrivacyCollectedDataTypeLinked"] as? Bool == false,
+                "\(type) is linked to an identity — the app has no account to link to"
+            )
+
+            // Analytics is the only purpose this app collects for. Advertising or personalisation
+            // appearing here would mean the SDK configuration drifted.
+            let purposes = entry["NSPrivacyCollectedDataTypePurposes"] as? [String] ?? []
+            #expect(
+                purposes == ["NSPrivacyCollectedDataTypePurposeAnalytics"],
+                "\(type) collects for \(purposes), not analytics alone"
+            )
+        }
+    }
+
+    /// The advertising identifier is a **linkage** decision, so this reads the project file.
+    ///
+    /// Since Firebase 11, IDFA collection is opt-in through `FirebaseAnalyticsIdentitySupport`, and
+    /// Firebase's own `Package.swift` states that *"adding this library to your project is enough
+    /// for it to take effect. The module does not need to be imported into any source files."*
+    ///
+    /// That is precisely why the privacy-manifest test above cannot catch it: linking the library
+    /// starts IDFA collection without a single line of code changing, and the manifest is a file
+    /// somebody then has to remember to update. Dragging one entry into "Frameworks, Libraries, and
+    /// Embedded Content" would silently make the published privacy policy false and oblige the app
+    /// to show an ATT prompt it does not show. So the assertion goes where the decision lives.
+    @Test("Analytics is linked without advertising-identifier support")
+    func analyticsDoesNotCollectTheAdvertisingIdentifier() throws {
+        let project = URL(fileURLWithPath: #filePath)
+            .deletingLastPathComponent()
+            .deletingLastPathComponent()
+            .appendingPathComponent("ScoreDock.xcodeproj/project.pbxproj")
+
+        let pbxproj = try String(contentsOf: project, encoding: .utf8)
+
+        #expect(
+            !pbxproj.contains("FirebaseAnalyticsIdentitySupport"),
+            """
+            FirebaseAnalyticsIdentitySupport is linked. That enables IDFA collection purely by \
+            being linked, which makes the app a tracking app: it then requires an App Tracking \
+            Transparency prompt, NSPrivacyTracking must become true, and PRIVACY.md's claim that \
+            the advertising identifier is never collected becomes false. Remove it, or update all \
+            three before shipping.
+            """
+        )
+
+        // The analytics the privacy manifest describes has to actually be linked, or the app ships
+        // declaring collection it never performs — the opposite drift, equally wrong.
+        #expect(
+            pbxproj.contains("FirebaseAnalytics"),
+            "the manifest declares analytics collection, but no Firebase Analytics product is linked"
+        )
     }
 
     /// A required-reason API used without a declared reason is an automatic rejection.

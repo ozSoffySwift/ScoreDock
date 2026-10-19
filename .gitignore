@@ -26,3 +26,9 @@ Package.resolved
 # CocoaPods / Carthage (not used, kept for safety if ever added)
 Pods/
 Carthage/Build/
+
+# Firebase
+# Deliberately not committed: this repository is public, and the config carries the project's
+# client API key and identifiers. Each developer drops their own copy in at the project root.
+# AppDelegate skips FirebaseApp.configure() when it is absent, so a fresh clone still launches.
+GoogleService-Info.plist

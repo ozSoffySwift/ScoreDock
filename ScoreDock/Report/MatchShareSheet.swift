@@ -99,7 +99,7 @@ struct MatchShareSheet: View {
                     Text("What's included", comment: "Share section")
                 } footer: {
                     Text(
-                        "Nothing leaves your device except the file you share. No analytics, no upload, no account.",
+                        "This match stays on your device. Only the file you share leaves it, to the destination you pick.",
                         comment: "Privacy footer"
                     )
                 }

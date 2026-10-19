@@ -1,3 +1,5 @@
+import FirebaseCore
+import OSLog
 import SwiftUI
 import UIKit
 
@@ -18,6 +20,37 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
     /// Narrowed to `.landscape` while the board is presented full screen, restored to `.all`
     /// afterwards so the rest of the app rotates normally.
     static var supportedOrientations: UIInterfaceOrientationMask = .all
+
+    private static let logger = Logger(subsystem: "com.ozsoffy.scoredock", category: "app")
+
+    /// Starts Firebase Analytics (§16).
+    ///
+    /// The target links `FirebaseAnalytics` **alone**. Since Firebase 11 the advertising identifier
+    /// is opt-*in*: `FirebaseAnalyticsIdentitySupport` is what enables IDFA collection, and Firebase's
+    /// own `Package.swift` notes that *"adding this library to your project is enough for it to take
+    /// effect — the module does not need to be imported"*. So the guard is a linkage decision, not a
+    /// code one, and nothing in this file can enforce it.
+    ///
+    /// `SubmissionTests.analyticsDoesNotCollectTheAdvertisingIdentifier` is what enforces it: it
+    /// fails if that library ever appears in the project. Linking it would oblige the app to show an
+    /// App Tracking Transparency prompt and declare `NSPrivacyTracking` true, contradicting both the
+    /// store listing and the published privacy policy.
+    ///
+    /// The presence check is load-bearing, not defensive clutter: `GoogleService-Info.plist` is
+    /// deliberately **not** committed (the repository is public), and `FirebaseApp.configure()`
+    /// raises `Could not locate configuration file` and terminates the app when it is absent. A
+    /// fresh clone would crash on launch without this guard. Analytics simply stays off instead.
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
+    ) -> Bool {
+        guard Bundle.main.url(forResource: "GoogleService-Info", withExtension: "plist") != nil else {
+            Self.logger.notice("GoogleService-Info.plist not bundled; analytics disabled for this build.")
+            return true
+        }
+        FirebaseApp.configure()
+        return true
+    }
 
     nonisolated func application(
         _ application: UIApplication,

@@ -582,17 +582,37 @@ source. A file that exists but never gets copied still fails.
 
 ### The privacy manifest
 
-`NSPrivacyCollectedDataTypes` is empty and `NSPrivacyTracking` is false as **statements of fact**:
-there is no analytics SDK, no telemetry, no crash reporter, no account and no network client in the
-app at all. One required-reason API is declared — `UserDefaults`, reason CA92.1, because
-`AppSettings` keeps board font, theme, sound and haptics there and nothing else reads them.
+`NSPrivacyTracking` is false and stays false — that is the invariant the tests defend.
+
+The app links **`FirebaseAnalytics` alone**. Since Firebase 11 the advertising identifier is
+*opt-in*: `FirebaseAnalyticsIdentitySupport` is the library that enables IDFA collection, and
+Firebase's own `Package.swift` says *"adding this library to your project is enough for it to take
+effect — the module does not need to be imported into any source files."* Collecting the IDFA would
+be *tracking* under Apple's definition, obliging an ATT prompt and contradicting the store listing.
+
+Because it takes effect purely by being linked, no amount of application code can prevent it —
+which is why the guard lives in the project file instead.
+
+`NSPrivacyCollectedDataTypes` therefore declares two entries — product interaction and the Firebase
+app-instance ID — both unlinked, both non-tracking, both for analytics only. Firebase ships its own
+manifest that Apple aggregates; these are declared here as well because the collection happens at
+this app's instigation, and under-declaring is a review risk while over-declaring is not.
+
+One required-reason API is declared — `UserDefaults`, reason CA92.1, because `AppSettings` keeps
+board font, theme, sound and haptics there and nothing else reads them.
 
 Deliberately absent: file timestamps, disk space, boot time, active keyboards. Photos reach the app
 through `PhotosPicker`, which runs out of process and hands back only the chosen image, so no
 photo-library permission is requested and none is declared.
 
-`SubmissionTests` re-asserts all of this from the shipped manifest, so App Store Connect's
-questionnaire and the binary cannot drift apart.
+`SubmissionTests.privacyManifestDeclaresNoTracking` re-asserts this from the shipped manifest, so
+App Store Connect's questionnaire and the binary cannot drift apart. It checks the property that
+actually matters now: every declared data type must be unlinked, non-tracking and analytics-only.
+Swapping in plain `FirebaseAnalytics` fails it.
+
+`GoogleService-Info.plist` is **not committed** — the repository is public and the file carries the
+project's client API key. `AppDelegate` skips `FirebaseApp.configure()` when it is absent, because
+Firebase otherwise terminates the app at launch, so a fresh clone still runs with analytics off.
 
 ### The icon
 

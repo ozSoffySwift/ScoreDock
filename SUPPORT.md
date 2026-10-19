@@ -21,9 +21,13 @@ Yes, entirely. Every feature in version 1.0 is free. There is no paywall, no loc
 feature, and no in-app purchase of any kind.
 
 **Does ScoreDock collect any of my data?**
-No. Nothing leaves your device except a file you explicitly choose to share. There is no
-analytics, no telemetry, no account, and no network code in the app at all. See
-[Privacy](#privacy) below.
+None of your match data, ever. Scores, team names, players, photos and notes stay on your
+device, and the only thing that leaves is a file you explicitly choose to share.
+
+The app does collect anonymous usage statistics — how often it is opened and which boards
+get used — via Firebase Analytics. It cannot read your advertising identifier and never
+tracks you across other apps, which is why you are never asked for tracking permission.
+See [Privacy](#privacy) below.
 
 **My match clock looks wrong after I locked my phone.**
 It shouldn't be — the clock is anchored to real time rather than counted down by the app,
@@ -52,9 +56,13 @@ the whole match as a `.sdgame` file that another ScoreDock user can open as a fu
 
 ## Privacy
 
-ScoreDock collects nothing and tracks nobody. All match data, players, and teams stay in
-the app's local storage on your device. The app has no analytics SDK, no crash reporter,
-no account system, and no networking code.
+All match data, players and teams stay in the app's local storage on your device and are
+never uploaded. There is no account and no sync.
+
+ScoreDock does collect anonymous usage statistics through Firebase Analytics — an app
+instance ID, device model, region and which boards are opened. It links the variant that
+cannot read your advertising identifier, so it never tracks you across apps and never
+shows an App Tracking Transparency prompt. Nothing you score or type is ever sent.
 
 See the [full privacy policy](PRIVACY.md).
 

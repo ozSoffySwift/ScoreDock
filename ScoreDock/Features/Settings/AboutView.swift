@@ -28,7 +28,7 @@ struct AboutView: View {
 
             Section {
                 Text(
-                    "Nothing leaves your device except the files you explicitly share. No analytics, no telemetry, no upload, and no account.",
+                    "Your matches never leave your device except in the files you explicitly share. ScoreDock collects anonymous usage statistics — how often the app is opened and which boards are used — with no account, no advertising identifier and nothing that identifies you.",
                     comment: "Privacy statement"
                 )
                 .font(.footnote)

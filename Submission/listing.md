@@ -75,9 +75,13 @@ referee can check at a glance, and it is literally true.
     it is off by default, so scoring stays one tap — and their records build up across every match
     you play.
 
-    PRIVATE BY CONSTRUCTION
-    Nothing leaves your device except the files you explicitly share. No analytics, no telemetry, no
-    upload, no account, and no network code of any kind.
+    YOUR MATCHES STAY YOURS
+    Every match you score stays on your device. The only match data that ever leaves is a file you
+    explicitly choose to share. There is no account, no sign-in, and nothing to sync.
+
+    ScoreDock collects anonymous usage statistics — how often the app is opened, which boards get
+    used — to understand what to build next. No advertising identifier, no cross-app tracking, and
+    nothing that identifies you.
 
     FREE
     Every feature in this version is free. There is no paywall, no locked feature and no in-app
